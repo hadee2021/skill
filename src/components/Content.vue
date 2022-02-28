@@ -5,34 +5,18 @@
       :key="data.id"
     >
       <h2 :id="data.headId"> 
-        <a :href="data.headHref">#</a>
+        <a :href="data.headHref" v-if="data.headHref">#</a>
         {{ data.headName }}
       </h2>
       <div class="img-position-center">
-        <img :src="require(`../assets/PIC/${data.folder}/${data.picture}`)">
+        <img :src="`/PIC/${data.folder}/${data.picture}`">
       </div>
       <div class="textbox">
-        <div>
-          <span>{{data.p1}}</span> <br>
-          <span>{{data.p2}}</span> <br>
-          <span>{{data.p3}}</span> <br>
-          <span>{{data.p4}}</span> <br>
-          <span>{{data.p5}}</span> <br><br>
-          <span>{{data.p6}}</span> <br>
-          <span>{{data.p7}}</span> <br>
-          <span>{{data.p8}}</span> <br>
-          <span>{{data.p9}}</span> <br>
-          <span>{{data.p10}}</span> <br><br>
-          <span>{{data.p11}}</span> <br>
-          <span>{{data.p12}}</span> <br>
-          <span>{{data.p13}}</span> <br>
-          <span>{{data.p14}}</span> <br>
-          <span>{{data.p15}}</span> <br><br>
-          <span>{{data.p16}}</span> <br>
-          <span>{{data.p17}}</span> <br>
-          <span>{{data.p18}}</span> <br>
-          <span>{{data.p19}}</span> <br>
-          <span>{{data.p20}}</span> <br><br>
+        <div 
+          v-for="(x, index) in data.contentArr"
+          :key="index"
+          v-html="x"
+        >
         </div>
       </div>
     </div>
@@ -45,6 +29,9 @@ export default {
     dataArr : {
       type : Array,
     }
+  },
+  setup(props) {
+    console.log(props.dataArr[0])
   }
 }
 </script>
@@ -59,13 +46,13 @@ export default {
   h2 {
     text-align: center;
   }
-  .img-position-center,
-  .textbox
+  .img-position-center
   {
     display: flex;
     justify-content: center;
   }
   .textbox {
+    padding-left: 160px;
     margin: 15px 0;
   }
   img {

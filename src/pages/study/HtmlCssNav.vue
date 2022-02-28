@@ -27,15 +27,6 @@
       <p>미디어 쿼리</p>
       <p>transform</p>
       <p>animation</p>
-      <p>////////</p>
-      <p>overflow</p>
-      <p>float</p>
-      <p>font</p>
-      <p>backgournd</p>
-      <p>shadow</p>
-      <p>미디어 쿼리</p>
-      <p>transform</p>
-      <p>animation</p>
     </nav>
   </div>
 </template>

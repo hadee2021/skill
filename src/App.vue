@@ -32,7 +32,7 @@ export default {
   }
 
   #AsidMenu {
-    min-width: 300px;
+    width: 20vw;
     height: calc(100vh - 20px);
     border: 2px solid rgb(66, 194, 255);
     background-color: rgba(66, 194, 255, 0.2);
@@ -55,8 +55,7 @@ export default {
     */
     overflow: auto;
 
-    width: 250px;
-    min-width: 220px;
+    width: 17vw;
     border: 2px solid #4472C4;
     background-color: aliceblue;
 

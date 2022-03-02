@@ -377,7 +377,7 @@
     "contentArr": [
       "block formatting context는 어디까지가 자식인가 <br> <br>",
       "이따 다룰거지만 overflow의 경우 기본값이 visible인데",
-      "visible은 자식으로 취급하지 안는다",
+      "visible은 자식으로 취급하지 않는다",
       "이런경우에 자식의 요소가 부모 보다 크기가 커서 넘치는경우가 발생함","( 예외적으로 li 태그에는 초기 padding이 존재하긴함 )<br><br>",
       "그래서 overflow를 auto혹은 scroll등으로 바꿔주는 것이다"
     ]

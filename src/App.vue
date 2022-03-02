@@ -28,13 +28,14 @@ export default {
   .flex-container {
     display: flex;
     height: 100%;
+    background-color:  rgba(193, 244, 197, 0.5);
   }
 
   #AsidMenu {
     min-width: 300px;
     height: calc(100vh - 20px);
-    border: 2px solid #4472C4;
-    background-color: aliceblue;
+    border: 2px solid rgb(66, 194, 255);
+    background-color: rgba(66, 194, 255, 0.2);
     margin: 5px 0 0 20px;
     overflow: auto;
     border-radius: 16px;
@@ -54,6 +55,7 @@ export default {
     */
     overflow: auto;
 
+    width: 250px;
     min-width: 220px;
     border: 2px solid #4472C4;
     background-color: aliceblue;

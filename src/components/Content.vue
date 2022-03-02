@@ -9,7 +9,10 @@
         {{ data.headName }}
       </h2>
       <div class="img-position-center">
-        <img :src="`/PIC/${data.folder}/${data.picture}`">
+        <img 
+          :src="`/PIC/${data.folder}/${data.picture}`"
+          @click.stop="openModal(data)"
+        >
       </div>
       <div class="textbox">
         <div 
@@ -30,8 +33,14 @@ export default {
       type : Array,
     }
   },
-  setup(props) {
-    console.log(props.dataArr[0])
+  emits: ['toggle-modal'],
+  setup(props, { emit }) {
+    const openModal = (data) => {
+      emit('toggle-modal', data)
+    }
+    return {
+      openModal
+    }
   }
 }
 </script>
@@ -52,7 +61,6 @@ export default {
     justify-content: center;
   }
   .textbox {
-    /* padding-left: 20%; */
     margin: 15px auto;
     width: 30vw;
   }

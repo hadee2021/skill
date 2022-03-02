@@ -2,42 +2,50 @@
   <div class="nav-area">
     <div class="scrollbar"> </div>
     <nav>
-      <p>html 개관</p>
-      <p>div</p>
-      <p>단락</p>
-      <p>기능형</p>
-      <p>사진,비디오</p>
+      <p
+        v-for="data in htmlArr"
+        :key="data.id"
+      >
+        <a :href="data.headHref" v-if="data.headHref">
+          {{ data.headName }}
+        </a>
+      </p>
       <hr/>
-      <p>CSS 개관</p>
-      <p>요소, 부모 자식</p>
-      <p>선택자</p>
-      <p>box</p>
-      <p>width,height</p>
-      <p>변수</p>
-      <p>flex</p>
-      <p>grid</p>
-      <p>containing block</p>
-      <p>block formatting context</p>
-      <p>position</p>
-      <p>overflow</p>
-      <p>float</p>
-      <p>font</p>
-      <p>backgournd</p>
-      <p>shadow</p>
-      <p>미디어 쿼리</p>
-      <p>transform</p>
-      <p>animation</p>
+      <p
+        v-for="data in cssArr"
+        :key="data.id"
+      >
+        <a :href="data.headHref" v-if="data.headHref">
+          {{ data.headName }}
+        </a>
+      </p>
     </nav>
   </div>
 </template>
 
 <script>
+import { ref } from 'vue'
+import HtmlJSON from '@/Json/Html.json'
+import CssJSON from '@/Json/Css.json'
 export default {
-
+  setup() {
+    const htmlArr = ref(HtmlJSON)
+    const cssArr = ref(CssJSON)
+    return {
+      htmlArr,
+      cssArr,
+    }
+  }
 }
 </script>
 
 <style scoped>
+  a,
+  a:visited
+  { 
+    text-decoration: none;
+    color: black;
+  }
   .nav-area{
     display: flex;
   }
@@ -51,7 +59,7 @@ export default {
     color: black;
     font-size: 20px;
   }
-  p:hover {
+  a:hover {
     color: #42b883;
     cursor: pointer;
   }

@@ -2,37 +2,38 @@
   <div class="nav-area">
     <div class="scrollbar"> </div>
     <nav>
-      <p>Vue 개관</p>
-      <p>파일 관계</p>
-      <p>컴포넌트</p>
-      <p>전역, 로컬</p>
-      <p>라이프 사이클</p>
-      <p>script 영역</p>
-      <p>template 영역</p>
-      <p>optional API</p>
-      <p>composition API</p>
-      <p>반응성</p>
-      <p>props와 emits</p>
-      <p>resfs</p>
-      <p>toRefs</p>
-      <p>외부js</p>
-      <p>믹스인</p>
-      <p>플러그인</p>
-      <p>vuex</p>
-      <p>axios</p>
-      <p>slot</p>
-      <p>router</p>
+      <p
+        v-for="data in VueArr"
+        :key="data.id"
+      >
+        <a :href="data.headHref" v-if="data.headHref">
+          {{ data.headName }}
+        </a>
+      </p>
     </nav>
   </div>
 </template>
 
 <script>
+import { ref } from 'vue'
+import VueJSON from '@/Json/VuePrinciple.json'
 export default {
-
+  setup() {
+    const VueArr = ref(VueJSON)
+    return {
+      VueArr,
+    }
+  }
 }
 </script>
 
 <style scoped>
+  a,
+  a:visited
+  { 
+    text-decoration: none;
+    color: black;
+  }
   .nav-area{
     display: flex;
   }
@@ -46,7 +47,7 @@ export default {
     color: black;
     font-size: 20px;
   }
-  p:hover {
+  a:hover {
     color: #42b883;
     cursor: pointer;
   }

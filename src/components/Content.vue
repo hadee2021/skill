@@ -13,9 +13,9 @@
       </div>
       <div class="textbox">
         <div 
-          v-for="(x, index) in data.contentArr"
+          v-for="(content, index) in data.contentArr"
           :key="index"
-          v-html="x"
+          v-html="content"
         >
         </div>
       </div>
@@ -52,20 +52,12 @@ export default {
     justify-content: center;
   }
   .textbox {
-    padding-left: 160px;
-    margin: 15px 0;
+    /* padding-left: 20%; */
+    margin: 15px auto;
+    width: 30vw;
   }
   img {
     border: 1px solid black;
     max-width: 60%;
-  }
-  .highlight-deepskyblue {
-    background-color: deepskyblue;
-  }
-  .textcolor-red {
-    color: red;
-  }
-  .textcolor-blue {
-    color: blue;
   }
 </style>

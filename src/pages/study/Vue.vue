@@ -15,7 +15,7 @@ export default {
     Content
   }, 
   setup() {
-    const vueArr = ref(VueJSON.vue)
+    const vueArr = ref(VueJSON)
     console.log(vueArr.value)
     return {
       vueArr

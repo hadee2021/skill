@@ -63,6 +63,10 @@ export default {
     margin-top: 5px;
     margin-right: 20px;
   }
+  #AsidMenu::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(240, 248, 255, 0);
+  }
   .nav-menu::-webkit-scrollbar {
     width: 5px;
     background-color: aliceblue;

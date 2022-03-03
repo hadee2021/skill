@@ -1,12 +1,17 @@
 <template>
   <div class="flex-container">
+    <header>
+      <div>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div>Hadee`s Blog</div>
+    </header>
     <div id="AsidMenu">
       <AsideMenu />
     </div>
     <div id="router-area">
       <router-view />
     </div>
-    
     <div class="nav-menu">
       <NavigationMenu />
     </div>
@@ -25,6 +30,9 @@ export default {
 </script>
 
 <style>
+  header {
+    display: none;
+  }
   .flex-container {
     display: flex;
     height: 100%;
@@ -32,8 +40,10 @@ export default {
   }
 
   #AsidMenu {
-    width: 20vw;
-    height: calc(100vh - 20px);
+    position: fixed;
+    top: 90px;
+    width: 300px;
+    /* height: calc(100vh - 20px); */
     border: 2px solid rgb(66, 194, 255);
     background-color: rgba(66, 194, 255, 0.2);
     margin: 5px 0 0 20px;
@@ -43,8 +53,8 @@ export default {
   #router-area {
     overflow: auto;
     flex: 1;
-    padding-top: 25px;
-    padding-left: 35px;
+    padding-top: 30px;
+    padding-left: 200px;
     margin-top: 5px;
   }
   .nav-menu {
@@ -55,7 +65,7 @@ export default {
     */
     overflow: auto;
 
-    width: 17vw;
+    width: 250px;
     border: 2px solid #4472C4;
     background-color: aliceblue;
 
@@ -83,5 +93,33 @@ export default {
     /*background-color: rgb(125, 129, 131); */
     border-radius: 10px;
     /*box-shadow: inset 0px 0px 5px white; */
+  }
+
+  @media screen and (max-width: 1400px) {
+    .nav-menu {
+      display: none;
+    }
+    #router-area {
+      padding-left: 100px;
+    }
+    #AsidMenu {
+      display: none;
+    }
+    header {
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      width: 100%;
+      /* border: 2px solid rgb(66, 194, 255); */
+      background-color: rgb(66, 194, 255);
+      color: white;
+      font-weight: 1000;
+      font-size: 20px;
+      padding: 12px 0;
+    }
+    header > div:first-child {
+      position: fixed;
+      left: 20px;
+    }
   }
 </style>

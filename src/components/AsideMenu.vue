@@ -104,7 +104,7 @@ i{
   }
   .menu-container {
     padding: 20px 35px 0 35px;
-    height: 90vh;
+    /* height: 90vh; */
   }
   .menu-container > div {
     padding-top: 15px;
@@ -126,7 +126,7 @@ i{
     padding-top: 15px;
   }
   .github-letter {
-    padding: 0 15px 0 15px;
+    padding: 105px 15px 10px 15px;
     font-size: 19px;
   }
   .toggleRotate {

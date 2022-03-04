@@ -5,6 +5,7 @@
     />
     <Navigation
       :jsonArr="cssArr"
+      :scrollbarVisible="false"
     />
   </div>
 </template>

@@ -2,11 +2,21 @@
   <div class="flex-container">
     <header>
       <div>
-        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars menubtn" 
+          @click.stop="openMenu()"
+          v-if="!showAsideMenu"
+        >
+        </i>
+        <i 
+          class="fa-solid fa-xmark closebtn"
+          v-if="showAsideMenu"
+        >
+        </i>
       </div>
       <div>Hadee`s Blog</div>
+      <div></div>
     </header>
-    <div id="AsidMenu">
+    <div class="AsidMenu" >
       <AsideMenu />
     </div>
     <div id="router-area">
@@ -15,16 +25,39 @@
     <div class="nav-menu">
       <NavigationMenu />
     </div>
+    <teleport to='#modal' >
+      <AsideMenu 
+        v-if="showAsideMenu"
+        class="modal-wrapper"
+        @close="closeMenu"
+        :showAsideMenu="showAsideMenu"
+      />
+    </teleport>
   </div>
 </template>
 
 <script>
 import AsideMenu from '@/components/AsideMenu.vue'
 import NavigationMenu from '@/components/NavigationMenu.vue'
+import {  ref } from 'vue'
 export default {
   components: {
     AsideMenu,
     NavigationMenu
+  },
+  setup() {
+    const showAsideMenu = ref(false)
+    const openMenu = () => {
+      showAsideMenu.value = true
+    }
+    const closeMenu = () => {
+      showAsideMenu.value = false
+    }
+    return {
+      openMenu,
+      showAsideMenu,
+      closeMenu,
+    }
   }
 }
 </script>
@@ -36,10 +69,10 @@ export default {
   .flex-container {
     display: flex;
     height: 100%;
-    background-color:  rgba(193, 244, 197, 0.5);
+    /* background-color:  rgba(193, 244, 197, 0.5); */
   }
 
-  #AsidMenu {
+  .AsidMenu {
     position: fixed;
     top: 90px;
     width: 300px;
@@ -58,28 +91,25 @@ export default {
     margin-top: 5px;
   }
   .nav-menu {
-    /* 
-    position: fixed;
-    top: 20px;
-    left: 90%;
-    */
+    position: relative;
+    top: 100px;
+    height: 500px;
     overflow: auto;
-
     width: 250px;
-    border: 2px solid #4472C4;
-    background-color: aliceblue;
+    border-left: 2px solid #4472C4;
 
     padding-right: 10px;
     margin-top: 5px;
     margin-right: 20px;
   }
-  #AsidMenu::-webkit-scrollbar {
+  .AsidMenu::-webkit-scrollbar {
     width: 5px;
     background-color: rgba(240, 248, 255, 0);
   }
   .nav-menu::-webkit-scrollbar {
     width: 5px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-color: white;
   }
 
   #router-area::-webkit-scrollbar {
@@ -95,19 +125,24 @@ export default {
     /*box-shadow: inset 0px 0px 5px white; */
   }
 
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1300px) {
     .nav-menu {
       display: none;
     }
-    #router-area {
-      padding-left: 100px;
+    .menubtn {
+      cursor: pointer;
     }
-    #AsidMenu {
+    #router-area {
+      padding-top: 0;
+      padding-left: 0px;
+      margin-top: 50px;
+    }
+    .AsidMenu {
       display: none;
     }
     header {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       position: fixed;
       width: 100%;
       /* border: 2px solid rgb(66, 194, 255); */
@@ -115,11 +150,16 @@ export default {
       color: white;
       font-weight: 1000;
       font-size: 20px;
-      padding: 12px 0;
+      padding: 12px;
     }
-    header > div:first-child {
+    .modal-wrapper {
       position: fixed;
-      left: 20px;
+      z-index: 100;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
     }
   }
 </style>

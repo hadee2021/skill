@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  emits: ['close'],
   props: {
     imgData : {
       type: Object

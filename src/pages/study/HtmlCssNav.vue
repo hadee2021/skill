@@ -57,7 +57,7 @@ export default {
   p {
     padding-left: 5px;
     color: black;
-    font-size: 20px;
+    font-size: 17px;
   }
   a:hover {
     color: #42b883;

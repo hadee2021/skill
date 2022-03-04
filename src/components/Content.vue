@@ -14,12 +14,14 @@
           @click.stop="openModal(data)"
         >
       </div>
-      <div class="textbox">
-        <div 
-          v-for="(content, index) in data.contentArr"
-          :key="index"
-          v-html="content"
-        >
+      <div class="textboxdiv">
+        <div class="textbox">
+          <div 
+            v-for="(content, index) in data.contentArr"
+            :key="index"
+            v-html="content"
+          >
+          </div>
         </div>
       </div>
     </div>
@@ -60,9 +62,20 @@ export default {
     display: flex;
     justify-content: center;
   }
+  .textboxdiv {
+    display: flex;
+    justify-content: center;
+  }
   .textbox {
-    margin: 15px auto;
-    width: 30vw;
+    /* margin: 15px auto;
+    width: 30vw; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 15px 10px;
+  }
+  .textbox > div {
+    align-self: baseline;
   }
   img {
     border: 1px solid black;

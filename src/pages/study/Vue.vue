@@ -1,7 +1,7 @@
 <template>
   <div>
     <Content
-      :dataArr="vueArr"
+      :jsonArr="vueArr"
       @toggle-modal="openModal"
     />
     <teleport to='#modal'>

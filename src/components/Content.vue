@@ -1,7 +1,7 @@
 <template>
   <div>
     <div 
-      v-for="data in dataArr"
+      v-for="data in jsonArr"
       :key="data.id"
     >
       <h2 :id="data.headId"> 
@@ -31,7 +31,7 @@
 <script>
 export default {
   props: {
-    dataArr : {
+    jsonArr : {
       type : Array,
     }
   },
@@ -67,8 +67,6 @@ export default {
     justify-content: center;
   }
   .textbox {
-    /* margin: 15px auto;
-    width: 30vw; */
     display: flex;
     flex-flow: column;
     align-items: center;

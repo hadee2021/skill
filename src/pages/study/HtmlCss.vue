@@ -1,11 +1,11 @@
 <template>
   <div>
     <Content 
-      :dataArr="htmlArr"
+      :jsonArr="htmlArr"
       @toggle-modal="openModal"
     />
     <Content 
-      :dataArr="cssArr"
+      :jsonArr="cssArr"
       @toggle-modal="openModal"
     />
     <teleport to='#modal'>

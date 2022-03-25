@@ -9,7 +9,7 @@
         {{ data.headName }}
       </h2>
       <div class="img-position-center">
-        <img 
+        <img v-if="data.picture"
           :src="`/PIC/${data.folder}/${data.picture}`"
           @click.stop="openModal(data)"
         >

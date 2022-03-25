@@ -1,0 +1,474 @@
+[
+  {
+    "id": 1,
+    "headId": "todo-ui",
+    "headHref": "#todo-ui",
+    "headName": "Todo 화면",
+    "folder": "TODO",
+    "picture": "001홈화면.png",
+    "contentArr": [
+      "Home화면은 현재시간과 일주일 간의 Todo 현황을 볼 수 있다<br>",
+      "( 아래의 그래프는 잠시후 설명함 )<br><br>",
+      "원하는 요일을 선택하면 Todo를 작성할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 2,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "002월.png",
+    "contentArr": [
+      "Todo를 작성하는 요일을 선택하면<br>",
+      "URL주소 뒤에 요일 변수가 추가되고<br>",
+      "요일에 해당하는 제목이 렌더링 된다<br><br>"
+    ]
+  },
+  {
+    "id": 3,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "003월todo추가.png",
+    "contentArr": [
+      "입력창에서 Todo를 작성하여 추가 할 수 있다<br><br>",
+      "추가된 Todo의 개수를 렌더링하여 보여준다<br><br>"
+    ]
+  },
+  {
+    "id": 4,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "004월요일체크.png",
+    "contentArr": [
+      "완료한 Todo는 체크를하면 취소선이 생기고<br>",
+      "체크된 Todo의 개수를 렌더링 해준다<br><br>"
+    ]
+  },
+  {
+    "id": 5,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "005월요일todo수정.png",
+    "contentArr": [
+      "카드를 더블클릭하면 내용을 수정할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 6,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "006홈그래프.png",
+    "contentArr": [
+      "Todo를 어느정도 작성하고 home으로 이동하면<br>",
+      "사진처럼 전반적인 Todo의 개수를 살펴볼 수 있다<br>",
+      "사진의 그래프는 현재 남아있는 Todo의 개수인데<br>",
+      "월요일에는 7개가 남아있다는 것이다<br><br>"
+    ]
+  },
+  {
+    "id": 7,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "007홈진행률.png",
+    "contentArr": [
+      "월요일에 Todo를 3개를 완료해주면 그래프에 4개로 차감반영된다<br>",
+      "또한 일주일 총 전적돠 진행률에 반영이 된다<br><br>"
+    ]
+  },
+  {
+    "id": 8,
+    "headId": "todo-code",
+    "headHref": "#todo-code",
+    "headName": "Todo 코드",
+    "folder": "TODO",
+    "picture": "008package.png",
+    "contentArr": [
+      "npm이란 편리함을 위해서 누군가가 만들어둔 기능을 설치해서 쓰는것이다<br>",
+      "예를들어서 로직설계상 나는 시간이 13시가 되면 오후로 표현을 하고 싶어!! <br>",
+      "if문을 사용하여 이를 해결할 수 있지만 관련 npm을 설치하면 <br>",
+      "오전,오후는 물론이고 보다 다양한 기능을 구현하여 사용할 수 있다 <br><br>",
+      "사진은 vue의 package.json인데 내가 설치한 npm과 버전을 확인할 수 있다 <br><br>",
+      "사용한 npm을 요약하면 다음과  같다<br><br>",
+      "1. click-outside-vue3 <br>",
+      "-> 외부영역을 클릭하는경우 이벤트 발생시킨다 <br>",
+      "중복된 작업의 버그를 피하기 위한 방법<br><br>",
+      "2. luxon <br>",
+      "-> 시간의 라이브러리이다 오전,오후 바로 표현해준다<br><br>",
+      "3. vuex-persistedstate <br>",
+      "-> localStorage를 자체적으로 활용하여 state를 저장해준다<br>",
+      "우리가 직접 localstorage를 호출하여 사용할 필요가 없다"
+    ]
+  },
+  {
+    "id": 9,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "009파일구조.png",
+    "contentArr": [
+      "1. 빨간색 동그라미<br>",
+      "화면으로 보여줄 페이지 파일과 컴포넌트들이다<br>",
+      "그리고 페이지의 경로를 지정하는 router파일<br><br>",
+      "2. 파란색 동그라미<br>",
+      "vuex의 store에서 전역으로 변수를 관리하고 <br>",
+      "store에는 Todo의 데이터를 저장하고 필요한 함수를 정의하였다<br>",
+      "store의 함수를 가용하기 위해서는 매번 store에 접근하고 <br>",
+      "dispatch로 정의를 해주어야 하는데 <br>",
+      "composable폴더안에 1번만 정의해주면 import하여 필요한 변수와 함수만 사용할 수 있다<br><br>",
+      "3. 녹색 동그라미<br>",
+      "index.html에 렌더링하여 보여줄 app.vue파일과 <br>",
+      "vue인스턴스를 만들고 기능을 전역적으로 관리하는 main.js파일이다<br><br>",
+      "4.노란색 동그라미<br><br>",
+      "파일이름작성시 index처럼 단일어로 작성하면 lint에서 애러를 발생시키는 경우가 있다<br>",
+      "이를 방지하기위해서 eslintrc를 사용한다<br><br>"
+    ]
+  },
+  {
+    "id": 10,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "010eslintrc.png",
+    "contentArr": [
+      "사용법은 애러를 무시하고 싶은 단어를<br>",
+      "ignores안에 작성해주면 된다<br><br>"
+    ]
+  },
+  {
+    "id": 11,
+    "headId": "todo-app",
+    "headHref": "#todo-app",
+    "headName": "Todo App.vue",
+    "folder": "TODO",
+    "picture": "011appvue화면.png",
+    "contentArr": [
+      "App.vue의 home페이지의 모습이다<br><br>",
+      "항상 존재하는 DateTime검포넌트와 DayMenuBar컴포넌트는<br>",
+      "App.vue에 고정적으로 넣어주었다<br><br>",
+      "파란색 영역은 router-view영역인데<br>",
+      "같은 경로이지만 name에 따라서 다른 화면을 보여준다<br><br>"
+    ]
+  },
+  {
+    "id": 12,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "012appvue.png",
+    "contentArr": [
+      "useRouter로 path에 해당하는 경로로 이동 할 수 있다<br><br>",
+      "style태그의 속성은 전역적으로 사용할 수 있다<br>",
+      "만약 로컬로만 사용하고싶으면 scoped를 써주자 <br>",
+      ":root는 css의 변수이며 값에 이름을 붙여서 관리하고 싶을때<br>",
+      "혹은 유동적으로 값을 바꿔주고 싶을때 사용한다<br><br>"
+    ]
+  },
+  {
+    "id": 13,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "013router.png",
+    "contentArr": [
+      "router는 경로이다!!<br><br>",
+      "1. createWebHistory는 Url주소뒤에 hash를 붙이지 않는 역할을 한다<br><br>",
+      "2. 우리가 같은경로인데 다른 화면을 동시에 보여주고싶을때 name을 활용한다<br>",
+      "dafault는 name을 지정하지 않은곳에서 보여줄 페이지이다<br><br>",
+      "이름: 보여줄페이지의 컴포넌트<br><br>"
+    ]
+  },
+  {
+    "id": 14,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "014datetime.png",
+    "contentArr": [
+      "luxon은 시간표현의 npm모듈이다<br><br>",
+      "1. today를 ref로 감싸서 reactive state로 만들자<br>",
+      "그리고 setInterval로 today를 1초마다 갱신시켜주자<br><br>",
+      "2. today가 변할때마다 computed로 감시를 하여 시간정보 반환<br><br>",
+      "3. toLocalString은 luxon의 독창적인 기술인데 오전,오후를 표현해준다<br><br>"
+    ]
+  },
+  {
+    "id": 15,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "015daymenubar.png",
+    "contentArr": [
+      "useRouter는 경로, useRoute는 페이지의 정보<br><br>",
+      "배열속 객체를 담아서 정리하는 자료구조는 유용하다<br>",
+      "[{  }, {  }, {  }, {  }] -> index 하나가 객체이고 data이다<br><br>",
+      "dayId: dayId 에 url마지막의 변수를 넣어준다 <br><br>"
+    ]
+  },
+  {
+    "id": 16,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "016daymenubarrouter.png",
+    "contentArr": [
+      "path의 dayId는 받아온 변수로 url뒤에 라우팅시켜준다<br><br>"
+    ]
+  },
+  {
+    "id": 17,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "017daymenubar.png",
+    "contentArr": [
+      "v-for는 배열을 사용하여 태그를 만든다!!<br>",
+      "moveToPage함수에 router 변수를 인자로 전달하자<br>",
+      "route.params.dayId는 현재페이지의 변수이다<br>",
+      "현재페이지와 배열의 객체의 dayId가일치하는 경우만 클래스 준다<br><br>"
+    ]
+  },
+  {
+    "id": 18,
+    "headId": "todo-vuex",
+    "headHref": "#todo-vuex",
+    "headName": "Todo Vuex",
+    "folder": "TODO",
+    "picture": "018vuextodos.png",
+    "contentArr": [
+      "1. namespaced는 모듈을 사용하기 위해서 필수이다<br><br>",
+      "2. state의 자료구조는 객체속 키: 배열값을 활용하고<br>",
+      "배열값에서는 배열속 객체를 index로 활용하였다 [{   }, {   }, {   }]<br><br>",
+      "3. payload는 단 1개의 값만 가능하다<br>",
+      "따라서 구조분해 할당을 활용하여 여러개의 값을 전달 할 수 있다<br><br>",
+      "4. state에 접근하고 값을 변경하는것은 mutations에서만 한다<br><br>"
+    ]
+  },
+  {
+    "id": 19,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "019vuextodos.png",
+    "contentArr": [
+      "5. actions에서는 외부와 소통하는 함수를 정의한다<br><br>",
+      "commit을 호출하는데<br>",
+      "commit의 역할은 외부에서 전달받은 payload를 mutation의 '대문자로 정의한함수'에게 전달한다<br><br>",
+      "6. state의 변수는 getter로 외부에서 사용한다<br>",
+      "vuex의 state와 mutation은 외부의 접근을 차단하는 은닉성을 가진다 <br><br>",
+      "변경은 오로지 store안에서만 가능하다 <br><br>"
+    ]
+  },
+  {
+    "id": 20,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "020vuexcomposable.png",
+    "contentArr": [
+      "vuex의 state와 함수를 사용하기위해서 중복적으로 거쳐야하는 과정은 하나의 js파일에 작성해두자<br>",
+      "vuex의 함수를 사용하고 싶은곳에서는 이 파일만 import하여 사용하면 매우 편리하다<br><br>",
+      "useStore()는 vuex를 사용한다는 것이다!!<br><br>",
+      "1. 외부에서 사용할 state 변수는 getter로 접근하고 computed로 감시해주자<br>",
+      "왜냐, 전역적으로 사용할 변수이고 언제든지 변화를 실시간 반영하여 렌더링 해주어야함<br>",
+      "외부에서 사용할 이름은 vuex에서의 변수, 함수 이름과 똑같이 해주자<br><br>",
+      "2. 외부에서 사용할 actions의 함수는 dispatch를 이용하여 접근할 수 있다<br>",
+      "엄밀히는 외부함수도 이름을 동일하게하고 dispatch호출하여 actions의 동명이인 함수에게 payload를 전달하는것이다<br><br>",
+      "3. 결론적으로 vuex의 변수와 함수 -> 이름만 같게해서 정의해 주고 <br>",
+      "return { 변수, 함수 } 의 형식으로 반환시킨다 <br>",
+      "const { 내가 사용할 변수, 함수 } = useTodos() = { todos, addTodo, checkTodo,.... } <br><br>"
+    ]
+  },
+  {
+    "id": 21,
+    "headId": "todo-homepage",
+    "headHref": "#todo-homepage",
+    "headName": "Todo Home 페이지",
+    "folder": "TODO",
+    "picture": "021홈페이지.png",
+    "contentArr": [
+      "home의 router로 보여주는 페이지이다<br><br>",
+      "페이지안에는 진행률 컴포넌트와 그래프 컴포넌트가 있다<br><br>"
+    ]
+  },
+  {
+    "id": 22,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "022홈기본페이지.png",
+    "contentArr": [
+      "페이지는 최대한 simple하고 멍청하게!!!<br><br>",
+      "정말 이것만 있어도 될까???? 정도!!<br><br>"
+    ]
+  },
+  {
+    "id": 23,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "023progress.png",
+    "contentArr": [
+      "1. vuex의 변수는 우리가 commputed로 항상 감시하기 때문에 사용시 변수.value로 사용한다<br>",
+      "또한 retive state이다!!<br><br>",
+      "2. todos.value를 가공하여 저장하는 todoList도 reactive state이다!!<br>",
+      "그래서 아래와 같이 computed로 감시를 할 수 있게 된다!!<br>",
+      "( computed는 reactive state를 감시한다 ) <br><br>"
+    ]
+  },
+  {
+    "id": 24,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "024weekgraph.png",
+    "contentArr": [
+      "span은 수치를 표현한다<br>",
+      "div는 막대 그래프<br><br>",
+      "style 바인딩은 JS로 CSS를 건들고 싶을 떄 사용한다<br>"
+    ]
+  },
+  {
+    "id": 25,
+    "headId": "todo-daypage",
+    "headHref": "#todo-daypage",
+    "headName": "Todo Day 페이지",
+    "folder": "TODO",
+    "picture": "025day페이지.png",
+    "contentArr": [
+      "router의 header 영역은 TodoNav와 Input 컴포넌트를 사용하였다<br>",
+      "router의 default 영역은 TodoList 컴포넌트를 사용 하였다<br><br>"
+    ]
+  },
+  {
+    "id": 26,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "025day헤더페이지.png",
+    "contentArr": [
+      "router 변수에 의한 페이지는 이름앞에 _ '언더바' 사용하였다 <br><br>"
+    ]
+  },
+  {
+    "id": 27,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "026todonav.png",
+    "contentArr": [
+      "1. .연산자는 키.키.키.....키의 값을 나타낸다<br>",
+      "즉, .이하를 키로 인식을 한다 <br><br>",
+      "2. [  ] 연산자도 키의 값을 나타내지만 .연산자와 차이가 있다<br>",
+      "키들이 중첩이된경우 [  ] 안에서 최종적으로 값을 도출하고 <br>",
+      "그 도출된 값이 키가 된다 <br><br>",
+      "그림에서 [routes.params.dayId]는 [mon]와 같은 말이다<br>",
+      "todos.value.mon로 인식이 된다<br><br>"
+    ]
+  },
+  {
+    "id": 28,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "027input.png",
+    "contentArr": [
+      "subject 변수는 reactive state로 만들고 양방향 바인딩을 시켜주자<br>",
+      "사용자가 input태그에 값을 입력할때 실시간으로 내용이 여기에 저장이된다<br><br>",
+      "onSave함수를 실행시 vuex의 함수에게 payload를 전달 하자<br><br>"
+    ]
+  },
+  {
+    "id": 29,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "029todolist.png",
+    "contentArr": [
+      "todo목록은 개별로 이벤트 처리를 위해서 컴포넌트로 처리하였다<br>",
+      "컴포넌트가 필요로 하는 정보는 todo와 index이기 때문에 이 정보들은 props로 내려주었다<br><br>"
+    ]
+  },
+  {
+    "id": 30,
+    "headId": "todo-check-delete",
+    "headHref": "#todo-check-delete",
+    "headName": "체크와 삭제",
+    "folder": "TODO",
+    "picture": "030todolist체크와삭제.png",
+    "contentArr": [
+      "1. 체크는 2가지 방식으로 가능하다<br>",
+      "하나는 체크박스를 이용한 방법인데 check이벤트를 전달한다<br>",
+      "다른 방법은 div를 클릭하는것인데 자신을 알리는 index를 전달한다<br><br>",
+      "2. 삭제는 체크의 후자방식 처럼 자신의 index를 인자로 전달한다<br><br>"
+    ]
+  },
+  {
+    "id": 31,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "031todolist체크와삭제.png",
+    "contentArr": [
+      "1. 체크를 수행하는 로직<br>",
+      "체크박스를 이용한 방식은 이벤트 함수를 이용하면 된다<br>",
+      "div를 이용한 방식은 직접 vuex의 값을 가져와서 반대의 값으로 치환하여 전달한다<br><br>",
+      "2. 삭제는 전달받은 index를 vuex에게 전달해 주었다<br><br>"
+    ]
+  },
+  {
+    "id": 32,
+    "headId": "todo-update",
+    "headHref": "#todo-update",
+    "headName": "수정",
+    "folder": "TODO",
+    "picture": "032todolist수정.png",
+    "contentArr": [
+      "1. 수정은 todo를 나타내는 span영역과 수정의 input태그를 감싸는 div영역이 번갈아 존재 해야한다<br>",
+      "v-if를 활용하여 둘중 하나만 보이게 하였다<br><br>",
+      "2. 외부영역을 클릭할 경우 생길 수 있는 버그를 차단하기 위해서 v-click-outside로 외부 클릭시 이벤트를 만들었다<br><br>",
+      "3. input영역을 클릭할경우 이벤트 버블링 현상이 발생하기 때문에 @click.stop으로 차단시켰다<br><br>"
+    ]
+  },
+  {
+    "id": 33,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TODO",
+    "picture": "033todolist수정.png",
+    "contentArr": [
+      "1. 수정 로직은 수정필드를 오픈할때 기존의 span은 보이지 않게 만들고<br>",
+      "todos의 subject값을 가져와서 원래값을 볼 수 있게 하였다<br><br>",
+      "2. 외부영역을 클릭하면 바로 저장하는 이벤트를 발생시켜서 수정영역을 계속 열어두는 버그를 해결하였다<br><br>"
+    ]
+  }
+]

@@ -1,21 +1,26 @@
 <template>
   <div>
-    <h2>간단한 소개</h2>
-    
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <Content 
+      :jsonArr="aboutMeArr"
+    />
   </div>
 </template>
 
 <script>
+import { ref } from 'vue'
+import AboutMeJSON from '@/Json/AboutMe.json'
+import Content from '@/components/Content.vue'
 export default {
+  components: {
+    Content
+  },
+  setup() {
+    const aboutMeArr = ref(AboutMeJSON)
 
+    return {
+      aboutMeArr
+    }
+  }
 }
 </script>
 

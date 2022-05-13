@@ -1,0 +1,833 @@
+[
+  {
+    "id": 1,
+    "headId": "js-big-picture",
+    "headHref": "#js-big-picture",
+    "headName": "js 개관",
+    "folder": "JSPIC",
+    "picture": "js001큰그림.png",
+    "contentArr": [
+      "JS의 큰그림<br><br>",
+      "데이터를 어떻게 보관하고",
+      "데이터를 어떻게 가공하여 사용하는가??<br><br>",
+      "DOM요소와 JS는 어떻게 연결 시키는가??<br><br>"
+    ]
+  },
+  {
+    "id": 2,
+    "headId": "js-obj",
+    "headHref": "#js-obj",
+    "headName": "객체",
+    "folder": "JSPIC",
+    "picture": "js002객체.png",
+    "contentArr": [
+      "객체는 키와 값 => 프로퍼티!! 를 이용하여 데이터를 관리한다<br><br>",
+      "객체는 키로 문자형과 심볼형만 가능하다<br><br>",
+      "shortcut은 단축 프로퍼티인데 변수와 값이 동일한 표현식일때 가능<br><br>",
+      "동적키는 변수에 따라 다양한 키를 사용할 수 있고 runtime중에 결정된다<br><br>",
+      "메서드는 3가지 방식으로 정의 할 수 있다<br><br>",
+      "메서드를 이용하면 데이터를 가공하거나 어떤 행동을 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 3,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js003객체.png",
+    "contentArr": [
+      "각각 키에 접근해보고<br><br>",
+      "메서드를 호출하여 사용해보자<br><br>"
+    ]
+  },
+  {
+    "id": 4,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js004객체.png",
+    "contentArr": [
+      "콘솔에 출력된 모습<br><br>"
+    ]
+  },
+  {
+    "id": 5,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js005객체복사.png",
+    "contentArr": [
+      "객체의 복사는 assign을 이용한다 <br><br>",
+      "다만, 값을 객체(객체 주소)로 가지는 깊은경우는 복사가 되지 않는다 <br><br>",
+      "이를 얕은 복사라함 <br><br>"
+    ]
+  },
+  {
+    "id": 6,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js006생성자함수.png",
+    "contentArr": [
+      "생성자함수는 객체를 찍어내는 함수이다<br><br>",
+      "비슷한 객체를 여러개 찍어낼때 사용하는 함수이다 <br><br>",
+      "규칙) <br><br>",
+      "1. 대문자로 시작 <br><br>",
+      "2. new로 실행 <br><br>",
+      "3. return 없음 <br><br>"
+    ]
+  },
+  {
+    "id": 7,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js007생성자함수.png",
+    "contentArr": [
+      "인스턴스를 만들고 키와 메서드에 접근해보자<br><br>"
+    ]
+  },
+  {
+    "id": 8,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js008생성자함수.png",
+    "contentArr": [
+      "콘솔에 나타낸 모습<br><br>"
+    ]
+  },
+  {
+    "id": 9,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js009옵셔널체이닝.png",
+    "contentArr": [
+      "옵셔널체이닝은 적용 대상이 null, undefined인 경우에 <br><br>",
+      "애러를 호출하여 동작이 멈추는것을 방지하는 역할을 한다 <br><br>"
+    ]
+  },
+  {
+    "id": 10,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js010옵셔널체이닝.png",
+    "contentArr": [
+      "콘솔에 나타낸 모습<br><br>"
+    ]
+  },
+  {
+    "id": 11,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js011심볼형.png",
+    "contentArr": [
+      "심볼형 값은 유일한 단 하나의 값이다<br><br>",
+      "외부의 코드를 빌려올 때 내가 할당하는 키의 이름이나 변수가 <br><br>",
+      "외부의 코드와 겹치면 실수나 애러가 나겠죠?? <br><br>",
+      "심볼형으로 값을 주면 유일하기 때문에 이름이 같아도 전혀 다른개체로 취급한다<br><br>"
+    ]
+  },
+  {
+    "id": 12,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js012심볼형.png",
+    "contentArr": [
+      "콘솔에 나타낸 모습<br><br>"
+    ]
+  },
+  {
+    "id": 13,
+    "headId": "js-arr",
+    "headHref": "#js-arr",
+    "headName": "배열",
+    "folder": "JSPIC",
+    "picture": "js013배열.png",
+    "contentArr": [
+      "배열은 데이터를 보관하는 역할을한다<br><br>",
+      "메서드에 따라서 크게 2가지 기능을 할 수 있다<br><br>",
+      "1. 내용 찾기<br><br>",
+      "혼동하면 안되는 것이 내용찾기랑 읽기는 다르다<br><br>",
+      "찾기 => 인덱스의 값을 가지고 0번째부터 선형으로 하나씩 열어나가면서 탐색 => 느린편<br><br>",
+      "읽기 => 인덱스의 값 탐색 => 매우 빠르다!!<br><br>",
+      "왜냐면 배열이 RAM에 저장되는데 RAM은 랜덤하게 아무곳이나 접근할 수 있기 때문 <br><br>",
+      "2. 내용을 가공<br><br>",
+      "여기서 중요한건 원본을 수정  vs 원본을 유지<br><br>",
+      "가급적이면 원본을 유지하는것이 좋다<br><br>"
+    ]
+  },
+  {
+    "id": 14,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js014배열.png",
+    "contentArr": [
+      "1. 내용찾기 메서드<br><br>",
+      "1) indexOf는 찾는 요소의 최초 index를 반환한다<br><br>",
+      "2) includes는 요소가 있는지 없는지 여부를 반환 <br><br>",
+      "3) find는 조건에 해당하는 최초의 단 하나의 요소를 반환<br><br>",
+      "4) filter는 조건에 해당하는 모든 요소를 배열로 반환<br><br>"
+    ]
+  },
+  {
+    "id": 15,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js015배열.png",
+    "contentArr": [
+      "2. 내용 변형 메서드<br><br>",
+      "1) map은 배열의 요소를 이용하여 맵핑함수를 거쳐 나온 결과값을<br><br>",
+      "전혀 새로운 배열에 넣어 배열을 반환한다 <br><br>",
+      "원본 유지 <br><br>",
+      "오해) 기존의 요소를 수정해서 새로운 배열에 넣는게 절대 아니다<br><br>",
+      "2) reduce는 반환할 누적값에 return 되는 값을 매번 넣어주고 (초기화함)<br><br>",
+      "단 하나의 결과값으로 반환을 한다 <br><br>",
+      "3) sort()는 원본을 정렬하여 수정한다 <br><br>",
+      "4) reverse()는 원본을 역순으로 정렬하여 수정한다 <br><br>"
+    ]
+  },
+  {
+    "id": 16,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js016배열.png",
+    "contentArr": [
+      "어떤 변수가 배열인가 아닌가 판별해준다<br><br>",
+      "이걸 왜 하냐?? <br><br>",
+      "유사배열 객체가 있기 때문인데...<br><br>",
+      "유사배열 객체는 배열의 메서드를 사용 할 수 없기 때문에 미리 캐치해야한다<br><br>"
+    ]
+  },
+  {
+    "id": 17,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js017배열.png",
+    "contentArr": [
+      "유사배열을 배열로 바꿀 수 있다<br><br>",
+      "바뀐 배열은 배열 메서드를 사용 할 수 있다<br><br>",
+      "앞의 내용과 연계하면 유사배열이면 배열로 바꿔서 배열의 메서드를 적용할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 18,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js018배열.png",
+    "contentArr": [
+      "다음은 배열메서드를 이용한 실습의 예시이다<br><br>",
+      "1. join을 이용하면 배열을 문자열로 바꿀 수 있다<br><br>",
+      "2. split는 문자열을 배열로 바꿀 수 있다.<br><br>",
+      "근데 문자열에서 어떤단위마다 나눌것인지 정해줘야한다<br><br>",
+      "그것이 구분자<br><br>",
+      "3 배열을 역순으로 만들어 준다<br><br>"
+    ]
+  },
+  {
+    "id": 19,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js019배열.png",
+    "contentArr": [
+      "콘솔에 출력한 모습<br><br>"
+    ]
+  },
+  {
+    "id": 20,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js020배열.png",
+    "contentArr": [
+      "4. splice는 원본을 수정한다<br><br>",
+      "5. slice는 원본을 유지한다<br><br>",
+      "둘다 원하는 요소만 빼낼 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 21,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js021배열.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 22,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js022배열.png",
+    "contentArr": [
+      "이번예시는 클래스로 객체를 여러개 찍어내고<br><br>",
+      "배열 요소에 객체들을 저장하였다<br><br>"
+    ]
+  },
+  {
+    "id": 23,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js023배열.png",
+    "contentArr": [
+      "5. filter는 조건에 해당하는 요소를 새로운 배열에 담아 반환<br><br>"
+    ]
+  },
+  {
+    "id": 24,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js024배열.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 25,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js025배열.png",
+    "contentArr": [
+      "7. map => 요소를 이용하여 맵함수 x.score 의 결과를 새로운 배열에 담아 반환<br><br>"
+    ]
+  },
+  {
+    "id": 26,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js026배열.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 27,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js027배열.png",
+    "contentArr": [
+      "some => 1개라도 만족하면 true<br><br>",
+      "every => 모두 만족해야 true<br><br>"
+    ]
+  },
+  {
+    "id": 28,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js028배열.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 29,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js029배열.png",
+    "contentArr": [
+      "9. reduce 누적된 하나의 값을 반환<br><br>",
+      "sum + x.score 를 sum에 계속 덮어쓰기 하여 반복계산<br><br>"
+    ]
+  },
+  {
+    "id": 30,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js030배열.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 31,
+    "headId": "js-class",
+    "headHref": "#js-class",
+    "headName": "클래스",
+    "folder": "JSPIC",
+    "picture": "js031클래스.png",
+    "contentArr": [
+      "클래스는 객체를 만들어 내는 설계도 이다<br><br>",
+      "구성) 생성자, 필드, 메서드<br><br>",
+      "인스턴스를 이용하여 필드와 메서드를 저렇게 사용한다<br><br>"
+    ]
+  },
+  {
+    "id": 32,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js032클래스.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 33,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js033클래스.png",
+    "contentArr": [
+      "getter를 이용하여 값을 가져올 수 있다<br><br>",
+      "setter를 이용하면 값을 조건에 맞게 필터링 할 수 있다<br><br>",
+      "getter setter 둘다 클래스 내부에서 사용하는것이고<br><br>",
+      "인스턴스에서는 그냥 필드에 접근하면 된다<br><br>"
+    ]
+  },
+  {
+    "id": 34,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js034클래스.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 35,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js035클래스.png",
+    "contentArr": [
+      "public => 누구나 접근가능<br><br>",
+      "private => # 은 접근 불가능<br><br>"
+    ]
+  },
+  {
+    "id": 36,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js036클래스.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 37,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js037클래스.png",
+    "contentArr": [
+      "static 붙은것은 인스턴스에서 사용불가능<br><br>",
+      "원본 설계도로 접근해서 사용가능<br><br>"
+    ]
+  },
+  {
+    "id": 38,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js038클래스.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 39,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js039클래스.png",
+    "contentArr": [
+      "사각형의 경우 상속받은 필드와 메서드를 사용 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 40,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js040클래스.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 41,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js041클래스.png",
+    "contentArr": [
+      "삼각형은 부모의 필드와 메서드를 재정의하여 사용한다<br><br>",
+      "넓이 구하는 방법을 삼각형에서 재정의<br><br>",
+      "즉 도형마다 넓이 구하는 다양한 방법이 다형성의 예시이다<br><br>"
+    ]
+  },
+  {
+    "id": 42,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js042클래스.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 43,
+    "headId": "js-promise",
+    "headHref": "#js-promise",
+    "headName": "Promise",
+    "folder": "JSPIC",
+    "picture": "js043프라미스.png",
+    "contentArr": [
+      "먼저, 우리는 동기와 비동기에 대해 공부를 해야한다<br><br>",
+      "동기는 순서적으로 일어난다<br><br>",
+      "일반적인 환경에서는 기본적으로 동기이다<br><br>",
+      "비동기는 순서에 상관없이 일어나는 것이다<br><br>",
+      "즉, 동기가 아닌것이 비동기<br><br><br>",
+      "이걸 어디에 사용하냐????<br><br>",
+      "흐름을 컨트롤 하고 싶을 때 사용한다<br><br>",
+      "기본적으로 동기에서는 순서에 막혀서 원하는 컨트롤을 하기 어렵다<br><br>",
+      "그래서 비동기 환경으로 만들고(async)<br><br>",
+      "그 안에서 컨트롤 하고 싶은것을 동기적으로(await) 만드는 것이다<br><br><br>",
+      "위 사진에서는 setTimeout으로 시간지연을 해보았다<br><br>",
+      "시간 지연을 함으로써 비동기 상황을 구현한 것이다<br><br>",
+      "늦게 출력되는게 중요한게 아니다<br><br>",
+      "순서에 상관없게 출력되는 흐름이 중요한것이다<br><br>"
+    ]
+  },
+  {
+    "id": 44,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js044프라미스.png",
+    "contentArr": [
+      "콘솔에 출력<br><br>"
+    ]
+  },
+  {
+    "id": 45,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js045프라미스.png",
+    "contentArr": [
+      "Promise는 비동기이다<br><br>",
+      "알 수 있는 정보는 상태(state)와 결과(result)이다<br><br>",
+      "상태(state)는 3가지가 있다<br><br>",
+      "1. 진행중 = pending<br><br>",
+      "2. 성공 = fulfilled<br><br>",
+      "3. 실패 = rejected<br><br>",
+      "결과(result)는 받은 인수값이다<br><br>",
+      "프라미스는 프라미스를 반환한다<br><br><br><br>",
+      "생산자는 new Promise() 정의 부분이다<br><br>",
+      "성공시 어떻게 할 것이고 실패시 어떻게 할 것인가를 정의<br><br><br>",
+      "소비자는 Promise인스턴스를 사용하는 부분이다<br><br>",
+      "소비자에서는 성공시 콜벡(resolve), 실패시 콜벡(reject)를 정의<br><br>"
+    ]
+  },
+  {
+    "id": 46,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js046프라미스.png",
+    "contentArr": [
+      "생산자와 소비자의 코드이다<br><br>",
+      "생산자를 보면 resolve는 있는데 reject가 없다<br><br>",
+      "둘다 같이 사용하려면 조건으로 분기시켜야 하는데<br><br>",
+      "위의 사진에서는 조건을 사용하지 않아서 resolve만 사용하였다<br><br>"
+    ]
+  },
+  {
+    "id": 47,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js047프라미스.png",
+    "contentArr": [
+      "소비자의 then안에서 resolve를 정의하여 넣어준것이다<br><br>",
+      "이를 별도로 정의하면 후자의 모습이 된다<br><br>"
+    ]
+  },
+  {
+    "id": 48,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js048프라미스.png",
+    "contentArr": [
+      "콘솔에 출력한 모습<br><br>"
+    ]
+  },
+  {
+    "id": 49,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js049프라미스.png",
+    "contentArr": [
+      "이번에는 reject를 구현하였다<br><br>",
+      "소비자에서 finally는 성공 실패 상관없이 무조건 실행<br><br>"
+    ]
+  },
+  {
+    "id": 50,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js050프라미스.png",
+    "contentArr": [
+      "콘솔에 출력한 모습<br><br>"
+    ]
+  },
+  {
+    "id": 51,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js051프라미스.png",
+    "contentArr": [
+      "Promise는 Promise를 반환한다<br><br>",
+      "연속으로 체이닝 할 수 있으며<br><br>",
+      "새롭게 반환한 Promise로 연결해서 체이닝 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 52,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js052프라미스.png",
+    "contentArr": [
+      "Promise를 반환하는 함수를 정의하고<br><br>",
+      "함수들을 체이닝에 사용하면 하나로 연결이 된다<br><br>"
+    ]
+  },
+  {
+    "id": 53,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js053프라미스.png",
+    "contentArr": [
+      "콘솔에 출력한 모습<br><br>"
+    ]
+  },
+  {
+    "id": 54,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js054프라미스.png",
+    "contentArr": [
+      "일반적인 환경은 동기적 환경이다<br><br>",
+      "async로 동기를 비동기로 만들고<br><br>",
+      "비동기 속에서 await로 동기를 만들면<br><br>",
+      "우리가 원하는 컨트롤을 할 수 있다<br><br><br><br>",
+      "위 사진에서는 console뒤의 주석의 순서를 주목해보자<br><br>",
+      "동기인 console은 먼저 순차적으로 실행되고<br><br>",
+      "비동기인 async가 이후에 실행이된다<br><br>"
+    ]
+  },
+  {
+    "id": 55,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js055프라미스.png",
+    "contentArr": [
+      "콘솔에서 순서를 확인 해보자<br><br>"
+    ]
+  },
+  {
+    "id": 56,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js056프라미스.png",
+    "contentArr": [
+      "이번사진은 await를 본격사용한 것이다<br><br>",
+      "비동기가 전제가 되야 동기인 await를 사용 할 수 있다<br><br><br><br>",
+      "메서드 all은 await를 모두 기다렸다가 실행을 한다<br><br>",
+      "race는 먼저 실행된 await만 받는다<br><br>"
+    ]
+  },
+  {
+    "id": 57,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js057프라미스.png",
+    "contentArr": [
+      "콘솔을 보면 모든것을 기다리는 all이 더 나중에 출력된다<br><br>"
+    ]
+  },
+  {
+    "id": 58,
+    "headId": "js-dom-event",
+    "headHref": "#js-dom-event",
+    "headName": "DOM & EVENT",
+    "folder": "JSPIC",
+    "picture": "js058이벤트버블링.png",
+    "contentArr": [
+      "이벤트 버블링의 사고 실험을 정리하겠다<br><br>",
+      "사진에서의 영역은 html, body, div영역으로 구성된다<br><br>",
+      "우리 눈에는 보이지 않지만 window와 document영역도 있다<br><br>",
+      "window > document > html > body > div <br><br>"
+    ]
+  },
+  {
+    "id": 59,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js059이벤트버블링.png",
+    "contentArr": [
+      "코드를 살펴보면 DOM요소를 가져와서 이벤트에 연결하고 있다<br><br>",
+      "순서를 알 수 있게 이름과 숫자를 부여 하였다<br><br>"
+    ]
+  },
+  {
+    "id": 60,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js060이벤트버블링.png",
+    "contentArr": [
+      "이벤트 버블링이란 ??!! <br><br>",
+      "자식의 요소를 클릭하면 부모의 요소도 같이 클릭이 일어나서<br><br>",
+      "부모의 클릭이벤트도 같이 실행된다<br><br>",
+      "div요소를 클릭했을 뿐인데 body, html, document, window등 같이 출력<br><br>",
+      "콘솔창을 보면 재미있는 사실이있다 <br><br><br><br>",
+      "호출되는 순서에서 역으로 거슬러 올라가는 것을 알 수 있다<br><br>",
+      "이것이 이벤트 버블링이다<br><br>"
+    ]
+  },
+  {
+    "id": 61,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js061이벤트버블링.png",
+    "contentArr": [
+      "body를 클릭하면 div요소 제외하고 이벤트가 실행된다<br><br>"
+    ]
+  },
+  {
+    "id": 62,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js062이벤트버블링.png",
+    "contentArr": [
+      "html을 클릭하면 body, div요소 제외하고 이벤트가 실행된다<br><br>"
+    ]
+  },
+  {
+    "id": 63,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js063이벤트버블링.png",
+    "contentArr": [
+      "모던 자바스크립트를 보면 이벤트 버블링을 막는 메서드가 있다<br><br>"
+    ]
+  },
+  {
+    "id": 64,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js064이벤트버블링.png",
+    "contentArr": [
+      "html수준에서 이벤트 버블링을 중단해보았다<br><br>"
+    ]
+  },
+  {
+    "id": 65,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js065이벤트버블링.png",
+    "contentArr": [
+      "html수준위로는 이벤트가 발생하지 않는다<br><br>"
+    ]
+  }
+]

@@ -4,16 +4,19 @@
       v-for="data in jsonArr"
       :key="data.id"
     >
+    
       <h2 :id="data.headId"> 
         <a :href="data.headHref" v-if="data.headHref">#</a>
         {{ data.headName }}
       </h2>
+
       <div class="img-position-center">
         <img v-if="data.picture"
           :src="`/PIC/${data.folder}/${data.picture}`"
           @click.stop="openModal(data)"
         >
       </div>
+
       <div class="textboxdiv">
         <div class="textbox">
           <div 
@@ -24,6 +27,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </template>

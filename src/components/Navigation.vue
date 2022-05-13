@@ -5,6 +5,7 @@
       class="scrollbar"
     >
     </div>
+
     <nav>
       <p
         v-for="data in jsonArr"

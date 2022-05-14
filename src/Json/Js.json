@@ -1100,5 +1100,160 @@
       "4번에서 inner는 부모가 호출된 시점에서 <br><br>",
       "this를 알 수 있다는 사실이다<br><br>"
     ]
+  },
+  {
+    "id": 85,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js085인간js엔진.png",
+    "contentArr": [
+      "다음은 Promise의 설명이다<br><br>",
+      "Promise의 장점은 실행은 됬는데 결과는 나중에 사용가능<br><br>"
+    ]
+  },
+  {
+    "id": 86,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js086인간js엔진.png",
+    "contentArr": [
+      "setTimeout으로 비동기의 예시를 구현해보자<br><br>"
+    ]
+  },
+  {
+    "id": 87,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js087인간js엔진.png",
+    "contentArr": [
+      "먼저 콜스텍에 setTimeout이 쌓이면서 실행이 될것이다<br><br>",
+      "비동기의 경우 동기와 다르게 Back Ground에도 저장이 된다<br><br>",
+      "Back Ground는 제로초 강사가 설정한 임의의 대기 저장 공간이다<br><br>"
+    ]
+  },
+  {
+    "id": 88,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js088인간js엔진.png",
+    "contentArr": [
+      "Back Ground에서 각각의 조건을 만족하면 큐로 이동한다<br><br>",
+      "조건이란 예를 들면 setTimeout은 초가 만족되면 이동하고<br><br>",
+      "addEventLisenter click이벤트는 클릭시 이동하고<br><br>",
+      "Promise는 reslove, reject를 만족시 이동한다<br><br>",
+      "큐는 매크로 큐와 마이크로 큐가있다<br><br>",
+      "마이크로 큐는 Promise와 procee.nexTick만 이동한다<br><br>"
+    ]
+  },
+  {
+    "id": 89,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js089인간js엔진.png",
+    "contentArr": [
+      "큐에서 착안할 점은 선입 선출로 작동을하는데 <br><br>",
+      "큐 안에서 만큼은 동기적으로 작동을 하는것을 알 수 있다<br><br>",
+      "즉 비동기 속의 내부동작은 동기적이라는 것이다<br><br><br>",
+      "이벤트 루프는 콜 스텍이 모두 비워지면 큐에 있는것을 하나씩 콜스텍에 올린다<br><br>"
+    ]
+  },
+  {
+    "id": 90,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js090인간js엔진.png",
+    "contentArr": [
+      "이번사진은 매크로 큐와 마이크로 큐의 차이를 보여준다<br><br>",
+      "이쯤되면 궁금한점이 생긴다<br><br>",
+      "2개의 큐에 작업이 들어와있을때 어떤것이 콜스텍으로 먼저 올라갈까???<br><br>"
+    ]
+  },
+  {
+    "id": 91,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js091인간js엔진.png",
+    "contentArr": [
+      "마이크로 큐부터 실행한다 이게 모두끝나야지 메크로 큐를 처리한다<br><br>",
+      "제로초: 마이크로 큐에 작업이 끝도 없이 차있으면<br><br>",
+      "영원히 메크로 큐의 작업을 실행하지 못한다<br><br>",
+      "여기서 생각할 수 있는 사실 하나!! <br><br>",
+      "메크로 큐에들어가는 setTimeout, setInterval은 작동시간을 보장 못 한다<br><br>"
+    ]
+  },
+  {
+    "id": 92,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js092인간js엔진.png",
+    "contentArr": [
+      "메크로 큐에는 setTimeout이 들어가고<br><br>",
+      "마이크로 큐에는 Promise가 들어간다<br><br>",
+      "마이크로 큐가 먼저 실행되기 때문에 p가 먼저 출력된다<br><br>"
+    ]
+  },
+  {
+    "id": 93,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js093인간js엔진.png",
+    "contentArr": [
+      "콘솔에 출력된 모습<br><br>"
+    ]
+  },
+  {
+    "id": 94,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js094인간js엔진.png",
+    "contentArr": [
+      "참고용으로 공부를 해보자<br><br>",
+      "async와 await를 Promise로 바꾸기<br><br>",
+      "await를 기준으로 then으로 바꾸고<br><br>",
+      "오른쪽에서 왼쪽으로 읽어나간다<br><br>"
+    ]
+  },
+  {
+    "id": 95,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js095인간js엔진.png",
+    "contentArr": [
+      "await와 await 사이의 코드를 넣는것은<br><br>",
+      "말그대로 코드를 기하적으로 보고서 넣으면된다<br><br>"
+    ]
+  },
+  {
+    "id": 96,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js096인간js엔진.png",
+    "contentArr": [
+      "변환이 완료된 모습<br><br>"
+    ]
   }
 ]

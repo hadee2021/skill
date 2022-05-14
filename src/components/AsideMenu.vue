@@ -24,6 +24,12 @@
               <router-link class="link" :to="{ name: 'Vue'}">Vue</router-link>
             </li>
             <li>
+              <router-link class="link" :to="{ name: 'Ts'}">Ts</router-link>
+            </li>
+            <li>
+              <router-link class="link" :to="{ name: 'React'}">React</router-link>
+            </li>
+            <li>
               <router-link class="link" :to="{ name: 'Cs'}">CS.e.t.c</router-link>
             </li>
           </ul>
@@ -160,7 +166,7 @@ export default {
     width: 300px;
     /* height: calc(100vh - 20px); */
     border: 2px solid rgb(66, 194, 255);
-    background-color: rgba(66, 194, 255, 0.2);
+    background-color: rgba(66, 194, 255, 0.8);
     margin: 5px 0 0 20px;
     overflow: auto;
     border-radius: 16px;

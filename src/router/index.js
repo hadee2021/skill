@@ -7,6 +7,10 @@ import Js from '@/pages/study/Js.vue'
 import JsNav from '@/pages/study/JsNav.vue'
 import Vue from '@/pages/study/Vue.vue'
 import VueNav from '@/pages/study/VueNav.vue'
+import Ts from '@/pages/study/Ts.vue'
+import TsNav from '@/pages/study/TsNav.vue'
+import React from '@/pages/study/React.vue'
+import ReactNav from '@/pages/study/ReactNav.vue'
 import Cs from '@/pages/study/Cs.vue'
 import CsNav from '@/pages/study/CsNav.vue'
 import Youtube from '@/pages/practice/Youtube.vue'
@@ -49,6 +53,22 @@ const router = createRouter({
       components: {
         default: Vue,
         nav: VueNav
+      }
+    },
+    {
+      path: '/study/ts',
+      name: 'Ts',
+      components: { 
+        default: Ts,
+        nav: TsNav
+      }
+    },
+    {
+      path: '/study/react',
+      name: 'React',
+      components: { 
+        default: React,
+        nav: ReactNav
       }
     },
     {

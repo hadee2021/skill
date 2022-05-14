@@ -829,5 +829,276 @@
     "contentArr": [
       "html수준위로는 이벤트가 발생하지 않는다<br><br>"
     ]
+  },
+  {
+    "id": 66,
+    "headId": "js-engin",
+    "headHref": "#js-engin",
+    "headName": "인간 js엔진",
+    "folder": "JSPIC",
+    "picture": "js066인간js엔진.png",
+    "contentArr": [
+      "함수()는 함수의 호출을 의미한다<br><br>",
+      "즉 함수()는 함수의 반환값으로 생각할 수 있다<br><br>",
+      "고차함수는 함수를 반환하는 함수이다<br><br>",
+      "예시에서는 add와 minus()는 동일한 로직으로 작동된다<br><br>",
+      "그럼 고차함수는 어떤점이 다를까??<br><br>",
+      "minus(10)처럼 콜벡으로 넘겨줄때 추가인수(10)가 필요한 경우<br><br>",
+      "고차함수를 활용 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 67,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js067인간js엔진.png",
+    "contentArr": [
+      "콘솔로 출력한 모습<br><br>"
+    ]
+  },
+  {
+    "id": 68,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js068인간js엔진.png",
+    "contentArr": [
+      "호출스텍은 후입 선출 방식으로 실행된다<br><br>",
+      "a( )를 호출하면 콜스텍에 함수a가 들어오고<br><br>",
+      "함수a에서 console.log('a')를 콜스텍에 넣고 바로 실행<br><br>",
+      "b( )가 호출되어 콜스텍에 함수b가 들어오고<br><br>",
+      "( 함수a는 아직실행중인거 반드시 기억!!! )<br><br>",
+      "함수b에서 console.log('b')를 콜스텍에 넣고 바로 실행<br><br>",
+      "c( )가 호출되어 콜스텍에 함수c가 들어오고<br><br>",
+      "함수c에서 console.log('c')를 콜스텍에 넣고 바로 실행<br><br>",
+      "함수 c 종료!! => 콜스텍에서 나간다<br><br>",
+      "함수 b 종료!! => 콜스텍에서 나간다<br><br>",
+      "함수 a 종료!! => 콜스텍에서 나간다<br><br>"
+    ]
+  },
+  {
+    "id": 69,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js069인간js엔진.png",
+    "contentArr": [
+      "콘솔로 출력한 모습<br><br>",
+      "위의 설명은 사진의 파란색 부분이다<br><br>",
+      "빨간색부분은 이후에 c( )를 나타낸것이다 <br><br>",
+      "여기서 파란색과 빨간색은 동기적으로 실행되는점을 다시한번 확인<br><br>"
+    ]
+  },
+  {
+    "id": 70,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js070인간js엔진.png",
+    "contentArr": [
+      "콜스텍에 함수들이 쌓여있는 모습<br><br>",
+      "밑에 있는 애들 => 아직 실행되고 있는점 반드시 기억!!! <br><br>"
+    ]
+  },
+  {
+    "id": 71,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js071인간js엔진.png",
+    "contentArr": [
+      "위 사진은 렉시컬환경과 스코프체인 그림이다<br><br>",
+      "1. 그리는 방법은 간단하다 <br><br>",
+      "선언된 함수위에 무엇이 있는지 표시하면된다 <br><br>",
+      "함수b 의 부모는 함수a 이다<br><br>",
+      "가장 위에는 anonymous이다 <br><br><br>",
+      "2. 그림에서 알 수 있는 정보가 중요하다 <br><br>",
+      "그림에서 anonymous는 함수 a, c를 가진다 <br><br>",
+      "즉 누가 누구를 가지고 볼 수 있는지<br><br>"
+    ]
+  },
+  {
+    "id": 72,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js072인간js엔진.png",
+    "contentArr": [
+      "anonymous에서 보면 함수 a, c가 있다<br><br>",
+      "함수 a 내부의 선언된 b는 볼 수 없다 <br><br>",
+      "저렇게 줄여서 보면 누가 누구를 가지는지 알기쉽다 <br><br>"
+    ]
+  },
+  {
+    "id": 73,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js073인간js엔진.png",
+    "contentArr": [
+      "함수a 에서 줄여서보면 b를 찾을 수 없다<br><br>",
+      "자신의 내부에서는 b가 있지만<br><br>",
+      "위로 거슬러서 올라가기 때문에 b를 찾을수 없는것이다<br><br>"
+    ]
+  },
+  {
+    "id": 74,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js074인간js엔진.png",
+    "contentArr": [
+      "함수b에서는 위로 거슬러 올라가면 <br><br>",
+      "c를 찾을 수 있다 <br><br>",
+      "아까의 스코프 그림을 보면 <br><br>",
+      "anonymous에 a와 c가 있으니<br><br>",
+      "b는 여기에서 a, c를 찾을 수 있는것이다<br><br>"
+    ]
+  },
+  {
+    "id": 75,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js075인간js엔진.png",
+    "contentArr": [
+      "console에 this를 찍어보면 window가 나타난다<br><br>",
+      "기본적으로 this는 실행시 결정된다 <br><br>"
+    ]
+  },
+  {
+    "id": 76,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js076인간js엔진.png",
+    "contentArr": [
+      "this는 함수가 호출될때 정해진다<br><br>",
+      "사진에서 obj.sayName()을 호출할때<br><br>",
+      "sayName()을 호출한 대상은 obj이다 <br><br>",
+      "따라서 this는 obj가 된다<br><br><br>",
+      "객체안에서 this를 obj라고 오해해서는 절대 안된다<br><br>",
+      "호출시에 누가 호출하는지에 따라 정해지는게 this이다<br><br>"
+    ]
+  },
+  {
+    "id": 77,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js077인간js엔진.png",
+    "contentArr": [
+      "this는 obj였으므로 <br><br>",
+      "this.name은 obj.name이되어서 출력<br><br>"
+    ]
+  },
+  {
+    "id": 78,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js078인간js엔진.png",
+    "contentArr": [
+      "이번에는 콜솔에가서 함수를 작성하고 호출해 보았다<br><br>",
+      "호출시 this가 누구인지 모르니까 window로 잡히고<br><br>",
+      "아무것도 출력되지않은 모습이다 <br><br>",
+      "( 연하게 하이라이트 된 부분이다 ) <br><br>"
+    ]
+  },
+  {
+    "id": 79,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js079인간js엔진.png",
+    "contentArr": [
+      "이번에는 this를 정해주는 메서드를 소개 하겠다<br><br>",
+      "아까의 문제는 호출시 this를 몰라서 생긴문제이다<br><br>",
+      "bind메서드는 함수를 새로 만들어준다 <br><br>",
+      "bind( ) 안에 this가 누구인지 정해주면된다<br><br>",
+      "그리고 bind는 함수를 새로 만든거니까 실행시 호출( ) 해줘야한다<br><br>"
+    ]
+  },
+  {
+    "id": 80,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js080인간js엔진.png",
+    "contentArr": [
+      "call과 apply는 bind처럼 this를 정해주고<br><br>",
+      "다른점은 함수를 만드는게 아니라 바로 실행을 시킨다<br><br>"
+    ]
+  },
+  {
+    "id": 81,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js081인간js엔진.png",
+    "contentArr": [
+      "똑같은 this.name인데 누군되고 누구는 안된다<br><br>",
+      "그 차이는 obj.sayName( )에서 sayName( )을 호출하는 대상이 obj<br><br>",
+      "this가 obj가 된다<br><br>",
+      "inner( )에서는 호출하는 대상이 없다<br><br>",
+      "this가 window로 잡힌다<br><br>"
+    ]
+  },
+  {
+    "id": 82,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js082인간js엔진.png",
+    "contentArr": [
+      "화살표함수는 자신의 this를 갖지 않는다<br><br>",
+      "부모에서 this를 찾는다<br><br>",
+      "즉 부모함수를 호출한 대상이 inner화살표함수의 this가 된다<br><br>",
+      "obj.sayName( )으로 부모함수인 sayName을 obj가 호출했으니까<br><br>",
+      "this는 obj가 되고 그대로 화살표함수인 inner에게도 해당이된다<br><br>"
+    ]
+  },
+  {
+    "id": 83,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js083인간js엔진.png",
+    "contentArr": [
+      "다시 코드로 돌아가서 콜스텍을 분석해보자<br><br>"
+    ]
+  },
+  {
+    "id": 84,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "JSPIC",
+    "picture": "js084인간js엔진.png",
+    "contentArr": [
+      "이번 사진은 콜스텍을 나타낸것이다<br><br>",
+      "아래부터 위로 흐름을 따라 읽으면 된다<br><br>",
+      "여기서 확인 할 사항은 this가 누구인지랑<br><br>",
+      "4번에서 inner는 부모가 호출된 시점에서 <br><br>",
+      "this를 알 수 있다는 사실이다<br><br>"
+    ]
   }
 ]

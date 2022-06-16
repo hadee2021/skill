@@ -181,5 +181,1325 @@
       "제네릭이란 타입이 무엇인지 모르지만 정해주면 따라간다는것이다<br><br>",
       "제네릭도 결국 input에 관련된 개념이라는 것이다<br><br>"
     ]
+  },
+  {
+    "id": 13,
+    "headId": "ts-utility",
+    "headHref": "#ts-utility",
+    "headName": "유틸리티",
+    "folder": "TSPIC",
+    "picture": "ts013유틸리티타입.png",
+    "contentArr": [
+      "keyof는 key를 모아서 하나의 유니언타입으로 만들어준다<br><br>"
+    ]
+  },
+  {
+    "id": 14,
+    "headId": "ts-short",
+    "headHref": "#ts-short",
+    "headName": "타입좁히기",
+    "folder": "TSPIC",
+    "picture": "ts014타입좁히기.png",
+    "contentArr": [
+      "유니언 타입을 input할때 타입좁히기를 해야한다<br><br>",
+      "타입 좁히기는 여러방법이 있다<br><br>",
+      "1. 서로다른 키가있을때 키를 기준으로 타입분류를 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 15,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts015타입좁히기.png",
+    "contentArr": [
+      "2. 공통된키에서 서로 다른값으로 타입분류를 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 16,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts016타입좁히기.png",
+    "contentArr": [
+      "사용할때 공통키의 값으로 구분을 해준다<br><br>",
+      "1번의 방식이었다면 사용자가 구조적으로 구분해야하는 단점을<br><br>",
+      "2번의 방식으로 개선을 한 것이다<br><br>"
+    ]
+  },
+  {
+    "id": 17,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts017타입좁히기.png",
+    "contentArr": [
+      "class는 타입으로써의 값도 가능하다<br><br>",
+      "필드가 키 와 같은 역할이된다<br><br>",
+      "3. 인스턴스의 여부로 타입 좁히기를 할 수 있다<br><br>",
+      "사용은 객체생성때 부터 서로 구별이 가능하다<br><br>"
+    ]
+  },
+  {
+    "id": 18,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts018타입좁히기.png",
+    "contentArr": [
+      "이번에는 서버에서 값을 받아와서 분류하는 작업이다<br><br>",
+      "boolean을 받아서 참, 거짓으로 경우를 분류한다<br><br>",
+      "그런데 서버에서 받은값이 boolean이 아닌 경우는<br><br>",
+      "default에 걸리게 하였다<br><br>"
+    ]
+  },
+  {
+    "id": 19,
+    "headId": "ts-construct",
+    "headHref": "#ts-construct",
+    "headName": "구조적타이핑",
+    "folder": "TSPIC",
+    "picture": "ts019구조적타이핑.png",
+    "contentArr": [
+      "사용자가 최소한의 공통키를 가지면 통과 가능<br><br>",
+      "길이를 계산하는 함수는 x: number 와 y: number를 통과시킨다<br><br>",
+      "v 라는 사용자는 x: number 와 y: number를 최소한도로 가진다<br><br>",
+      "최소 조건을 만족하므로 함수를 통과할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 20,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts020구조적타이핑.png",
+    "contentArr": [
+      "NamedVector는 Vector2D를 상속받은것으로 표현할 수 있고<br><br>",
+      "길이를 계산하는 함수는 인자로 Vector2D를 통과시킨다는 점에서<br><br>",
+      "NamedVector는 Vector2D를 가지니까 함수역시 통과할 수 있다고 생각할 수 있다<br><br><br>",
+      "쉽게말해서 열쇠 있으면 통과 가능<br><br>"
+    ]
+  },
+  {
+    "id": 21,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts021구조적타이핑.png",
+    "contentArr": [
+      "이렇게 열쇠만 있으면 통과시키는것에 단점이있다<br><br>",
+      "Vector3D는 Vector2D를 가지니까 함수를 통과할 수 있지만<br><br>",
+      "함수는 내부적으로 2개의 성분만 계산이 된다는것이다<br><br>",
+      "z성분은 계산이 되지 않아서 정확한길이를 구할 수 없다<br><br>",
+      "이런문제를 해결하기 위해서라면 함수의 내부로직을 수정해야한다<br><br>"
+    ]
+  },
+  {
+    "id": 22,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts022구조적타이핑.png",
+    "contentArr": [
+      "앞서 class가 타입이 될수 있다고 했다<br><br>",
+      "C class타입으로 d 객체를 선언하면  타입체커에는 통과된다<br><br>",
+      "하지만 선언한객체는 class의 인스턴스는 아니다<br><br>"
+    ]
+  },
+  {
+    "id": 23,
+    "headId": "ts-set",
+    "headHref": "#ts-set",
+    "headName": "타입집합",
+    "folder": "TSPIC",
+    "picture": "ts023타입집합.png",
+    "contentArr": [
+      "타입은 값들의 집합이다<br><br>",
+      "유니언 타입은 합집합이고<br><br>",
+      "교차 타입은 교집합이다<br><br>"
+    ]
+  },
+  {
+    "id": 24,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts024타입집합.png",
+    "contentArr": [
+      "PersonSpan은 Person과 LifeSpan의 키를 모두 사용해야한다<br><br><br><br>",
+      "A & B 교차타입은 교집합이다<br><br>",
+      "근데 수학에서의 공통분모의 의미가 아니라 <br><br>",
+      "둘이 함께써야한다는 동시성의 의미이다 <br><br>",
+      "( 확률에서의 곱사건 같은의미 ) <br><br><br>",
+      "그래서 keyof (A & B) 는 A의 키 B의 키를 모두다 쓰는거라 <br><br>",
+      "(keyof A) | (keyof B)랑 동일하다 <br><br><br>",
+      "A | B  유니언 타입은 합집합이다 <br><br>",
+      "수학에서는 모두다 해당하는 의미이지만 <br><br>",
+      "여기서는 또는의 의미이다 <br><br>",
+      "즉 둘중에 1개만 선택 <br><br><br>",
+      "그래서 keyof (A | B)는 A 또는 B에 같이 있는키 <br><br>",
+      "즉 공통된 키를 의미한다 <br><br>",
+      "(keyof A) & (keyof B)랑 동일하다 <br><br>"
+    ]
+  },
+  {
+    "id": 25,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts025타입집합.png",
+    "contentArr": [
+      "정말 중요한개념!!!<br><br>",
+      "extends는 제네릭에서 ~의 부분집합이다<br><br>",
+      "K는 string일수도 있고 string을 포함하는 유니언도 가능<br><br>"
+    ]
+  },
+  {
+    "id": 26,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts026타입집합.png",
+    "contentArr": [
+      "K는 Point의 부분집합이다<br><br>"
+    ]
+  },
+  {
+    "id": 27,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts027타입집합.png",
+    "contentArr": [
+      "Exclude는 차집합이다<br><br>",
+      "앞의거 - 뒤에것 <br><br><br><br>",
+      "자주나오게 될 약속<br><br>",
+      "타입 명명 관례<br><br>",
+      "E - Element<br><br>",
+      "K - Key<br><br>",
+      "T - type<br><br>",
+      "V - vlaue<br><br>",
+      "N - Number<br><br>"
+    ]
+  },
+  {
+    "id": 28,
+    "headId": "ts-typespace",
+    "headHref": "#ts-typespace",
+    "headName": "타입공간",
+    "folder": "TSPIC",
+    "picture": "ts028타입공간.png",
+    "contentArr": [
+      "타입으로 쓰는경우 VS 값으로 쓰는경우<br><br>",
+      "1. 동명이인 <br><br>",
+      "-> Cylinder처럼 타입명과 변수명이 같으면 오류가 생길 수 있다<br><br>",
+      "동명이인을 만들어서는 안된다<br><br><br>",
+      "2. 하나가 타입과 값의 역할 둘다 가능<br><br>",
+      "클래스가 값으로쓰인경우는 저렇게 접근연산자를 사용한 경우이다<br><br>",
+      "2번의 경우가 여기에서 다루고자 하는 내용이다<br><br><br>",
+      "3. 번외) 타입의 속성을 얻을때는 대괄호로 접근한다<br><br>"
+    ]
+  },
+  {
+    "id": 29,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts029타입공간.png",
+    "contentArr": [
+      "타입 vs typeof X <br><br>",
+      "결론은 서로 다르다!!<br><br>",
+      "type 타입 = typeof X vs const 변수 = typeof X<br><br>",
+      "전자는 interface같은 타입명을 의미하고<br><br>",
+      "후자는 형태의 자료형 타입을 의미한다<br><br>",
+      "const vv1 의 타입은 string | number | bigint | boolean | symbol<br><br>",
+      "| undefined | object | function 이다 <br><br>",
+      "typeof의 경우의 수를 타입스크립트가 추론을 하는것이다<br><br>",
+      "InstanceType 제네릭은 생성자타입과 인스턴스타입을 전환할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 30,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts030타입구조분해.png",
+    "contentArr": [
+      "타입도 구조분해 할당을 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 31,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts031타입단언.png",
+    "contentArr": [
+      "타입선언 => 무조건 이 타입만 가능하다<br><br>",
+      "타입단언 => 성분을 포함하고 있으면 무엇이든지 이 타입으로 보겠다<br><br>"
+    ]
+  },
+  {
+    "id": 32,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts032타입단언.png",
+    "contentArr": [
+      "타입단언이 필요한경우<br><br>",
+      "EventTarget타입에서 버튼타입처럼 구체화하고싶을때 싶을때 사용<br><br>",
+      "null이 아님을 단언하는 방법은 뒤에 ! 를 붙이는 것이다<br><br>"
+    ]
+  },
+  {
+    "id": 33,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts033타입단언.png",
+    "contentArr": [
+      "서브타입이란 부분 집합이다<br><br>",
+      "예) HTMLElement | null 에서 HTMLElement, null이 서브타입<br><br>",
+      "as 타입 에서의 타입을 포함하고 있어야한다<br><br><br>",
+      "서브타입이 아닌경우에는 타입단언이 불가능하다<br><br>",
+      "이 경우에는 unknown을 사용한다<br><br>",
+      "모든타입은 unknown의 서브타입이기 때문이다<br><br>"
+    ]
+  },
+  {
+    "id": 34,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts034래퍼피하기.png",
+    "contentArr": [
+      "래퍼객체에 대해 간단히 설명하면<br><br>",
+      "문자열에서 메서드를 사용할때 내부적으로 String 래퍼객체를 형성하고 <br><br>",
+      "객체의 메서드로 작업을 한 후에 래퍼객체를 제거한다<br><br><br>",
+      "래퍼타입을 사용하면 일반타입하고 혼동이 있을 수 있다<br><br>",
+      "이사진에서는 래퍼타입을 저렇게 사용 하는구나 정도 보자<br><br>"
+    ]
+  },
+  {
+    "id": 35,
+    "headId": "ts-surplus",
+    "headHref": "#ts-surplus",
+    "headName": "잉여속성 체크",
+    "folder": "TSPIC",
+    "picture": "ts035잉여속성.png",
+    "contentArr": [
+      "잉여속성체크 vs 할당가능 검사<br><br><br>",
+      "잉여 속성 체크는 타입에 선언된 속성 외에 속성이 있는지 체크한다 <br><br>",
+      "특정 타입에 객체 리터럴을 생성하여 할당할 때<br><br>",
+      "객체 리터럴에서만 잉여 속성 체크가 동작한다. <br><br>",
+      "즉 항상 작동하는것은 아니다<br><br><br>",
+      "타입 단언을 사용할 때에는 잉여 속성 체크를 하지 않는다.<br><br>",
+      "인덱스 시그니처를 사용하면 잉여 속성 체크를 무력화할 수 있다.<br><br>",
+      "참고로 모든속성이 선택적 속성 -> 약한타입 <br><br>",
+      "약한타입에서도 잉여 속성 체크는 작동한다<br><br>"
+    ]
+  },
+  {
+    "id": 36,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts036잉여속성.png",
+    "contentArr": [
+      "아까와의 차이점 보이는가??<br><br>",
+      "아까는 객체를 생성하면서 할당하고 <br><br>",
+      "지금은 미리 생성된객체를 할당한다<br><br>",
+      "물론 서로 공통된 속성이 일치해야한다 <br><br>"
+    ]
+  },
+  {
+    "id": 37,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts037잉여속성.png",
+    "contentArr": [
+      "타입단언을 하면 잉여속성체크를 피할 수 있다<br><br>",
+      "다음은 인덱스 시그니처의 예시이다<br><br>"
+    ]
+  },
+  {
+    "id": 38,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts038잉여속성.png",
+    "contentArr": [
+      "약한타입은 모든속성이 선택적이다<br><br>",
+      "약한타입에서도 잉여속성체크는 작동한다<br><br>"
+    ]
+  },
+  {
+    "id": 39,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts039함수표현식.png",
+    "contentArr": [
+      "1. 함수 선언문에 타입 적용하기 -> 인수타입, 반환타입<br><br>",
+      "2. 함수표현식에 타입적용하기 <br><br>",
+      "3. type 함수타입 선언 <br><br>"
+    ]
+  },
+  {
+    "id": 40,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts040함수표현식.png",
+    "contentArr": [
+      "type FetchFn의 내용 과 typeof fetch 서로 같음<br><br>",
+      "그래서 저렇게 기다란 내용대신 <br><br>",
+      "typeof fetch 를 사용한다 <br><br>"
+    ]
+  },
+  {
+    "id": 41,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts041차이.png",
+    "contentArr": [
+      "interface와 type의 차이<br><br>",
+      "큰 차이는 없다 다만 디테일이 다르다<br><br><br>",
+      "interface IState 는 저렇게 선언 병합을 할 수 있다<br><br>",
+      "interface는 extends로 확장을 하여 하나로 타입 검사함<br><br>",
+      "type은 & 로 확장을 하고 앞에것부터 타입 검사한다<br><br><br>",
+      "type => 복잡한 타입일때 사용<br><br>",
+      "interface => 보강의 가능성이있는 경우<br><br>"
+    ]
+  },
+  {
+    "id": 42,
+    "headId": "ts-norepeat",
+    "headHref": "#ts-norepeat",
+    "headName": "반복줄이기",
+    "folder": "TSPIC",
+    "picture": "ts042반복줄이기.png",
+    "contentArr": [
+      "함수의 인자부분이 복잡하고 반복이된다<br><br>",
+      "이부분을 타입으로 바꿔보자<br><br>"
+    ]
+  },
+  {
+    "id": 43,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts043반복줄이기.png",
+    "contentArr": [
+      "HTTPFn 타입은 내가 정한 이름이다 <br><br>"
+    ]
+  },
+  {
+    "id": 44,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts044반복줄이기.png",
+    "contentArr": [
+      "함수 선언문에서는 적용이 어렵다<br><br>",
+      "함수 표현식으로 바꿔주자<br><br>"
+    ]
+  },
+  {
+    "id": 45,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts045반복줄이기.png",
+    "contentArr": [
+      "완성된 모습<br><br>"
+    ]
+  },
+  {
+    "id": 46,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts046반복줄이기.png",
+    "contentArr": [
+      "TopNavState1 2 3 모두 똑같음<br><br>",
+      "2번에서 userId | recentPage 는 State2키의 부분집합이다<br><br>",
+      "3번에서 Pick&ltState2, userId | recentPage&gt<br><br>",
+      "State2 에서  userId | recentPage 만 가져오겠다<br><br>"
+    ]
+  },
+  {
+    "id": 47,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts047반복줄이기.png",
+    "contentArr": [
+      "ReturnType 제네릭을 사용하면 객체반환함수의 리턴타입을 알 수 있다<br><br>",
+      "객체의 키와 타입이 같이 나타나있다<br><br>"
+    ]
+  },
+  {
+    "id": 48,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts048반복줄이기.png",
+    "contentArr": [
+      "툴팁의 모습처럼 각각 타입이 반영되있는 모습<br><br>"
+    ]
+  },
+  {
+    "id": 49,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts049반복줄이기.png",
+    "contentArr": [
+      "키가 공통된경우 둘다 가진다<br><br>"
+    ]
+  },
+  {
+    "id": 50,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts050반복줄이기.png",
+    "contentArr": [
+      "툴팁에도 2개의 키가 반영되있다<br><br>"
+    ]
+  },
+  {
+    "id": 51,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts051반복줄이기.png",
+    "contentArr": [
+      "해석연습??!!<br><br>",
+      "Name 타입의 부분집합인 T 타입으로 튜플구성<br><br>"
+    ]
+  },
+  {
+    "id": 52,
+    "headId": "ts-activedata",
+    "headHref": "#ts-activedata",
+    "headName": "동적데이터",
+    "folder": "TSPIC",
+    "picture": "ts052동적데이터.png",
+    "contentArr": [
+      "동적데이터는 인덱스 시그니처를 사용한다<br><br>"
+    ]
+  },
+  {
+    "id": 53,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts053동적데이터.png",
+    "contentArr": [
+      "사용자가 입력하기 전까지는 열 이름이 무엇인지 미리 알기 어려울때<br><br>",
+      "인덱스 시그니처를 사용한다<br><br><br>",
+      "반면에 열이름을 알고있는 상황에서는 미리선언한 단언문으로 사용<br><br>",
+      "declare 키워드는 컴파일러에게 <br><br>",
+      "해당 변수나 함수가 이미 존재한다는 것을 알리는 역할을 한다.<br><br>",
+      "다른 영역의 코드에서<br><br>",
+      "declare로 선언된 해당 변수나 함수를 참조할 수 있으며<br><br>",
+      "declare로 선언된 부분은 javascript로 컴파일되지 않는다.<br><br>"
+    ]
+  },
+  {
+    "id": 54,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts054동적데이터.png",
+    "contentArr": [
+      "인덱스시그니처는 광범위한 키를 가지는게 단점이다<br><br>",
+      "이를 Record를 이용하면 해결 할 수 있다<br><br>",
+      "유니언 타입으로 키를 선언하고 <br><br>",
+      "자료형을 값으로 주면 된다<br><br>",
+      "사용시에 키는 모두 사용해야 한다<br><br>"
+    ]
+  },
+  {
+    "id": 55,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts055동적데이터.png",
+    "contentArr": [
+      "k 가 b이면  string 을 사용하겠다<br><br>"
+    ]
+  },
+  {
+    "id": 56,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts056동적데이터.png",
+    "contentArr": [
+      "유사배열은 키가 문자열이다<br><br>",
+      "ArrayLike 타입을 사용하자<br><br>"
+    ]
+  },
+  {
+    "id": 57,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts057변경방지.png",
+    "contentArr": [
+      "일반 변수를 readonly에 넣을수 있지만<br><br>",
+      "readonly 를 변수에 넣을수는 없다<br><br>"
+    ]
+  },
+  {
+    "id": 58,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts058변경방지.png",
+    "contentArr": [
+      "변경을 막기위해서 readonly 사용한다<br><br>"
+    ]
+  },
+  {
+    "id": 59,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts059변경방지.png",
+    "contentArr": [
+      "연속된 행을가져와서 빈줄을 기준으로 나눠보자<br><br>"
+    ]
+  },
+  {
+    "id": 60,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts060변경방지.png",
+    "contentArr": [
+      "빈줄이 나오는 기점으로 내용을 새로운 배열에 넣는것이다<br><br>"
+    ]
+  },
+  {
+    "id": 61,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts061변경방지.png",
+    "contentArr": [
+      "const currPara 에서 let으로 바꾸고 readonly 추가해서<br><br>",
+      "한쪽의 변경가능성을 다른쪽으로 옮긴것이다<br><br>",
+      "currPara변수는 가리키는 배열을 변경가능하지만<br><br>",
+      "그 배열 자체는 변경할 수 없다<br><br>",
+      "currPara의 복사본을 만들면 복사본은 자유롭게 변경이 가능<br><br>"
+    ]
+  },
+  {
+    "id": 62,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts062변경방지.png",
+    "contentArr": [
+      "배열의 readonly 속성을 제거하기 위해 단언문을 쓰는방법도있다<br><br>"
+    ]
+  },
+  {
+    "id": 63,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts063변경방지.png",
+    "contentArr": [
+      "readonly 는 얕게 동작한다<br><br>",
+      "즉 깊은곳에는 적용이 안된다<br><br>"
+    ]
+  },
+  {
+    "id": 64,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts064매핑된타입.png",
+    "contentArr": [
+      "차트를 자주 그리는 단점이있다<br><br>"
+    ]
+  },
+  {
+    "id": 65,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts065매핑된타입.png",
+    "contentArr": [
+      "[K in keyof ScatterProps]: boolean 이게 맵핑이다<br><br>",
+      "매핑된 타입은 한 객체가 또 다른 객체와 <br><br>",
+      "정확히 같은 속성을 가지게 할 때 이상적이다<br><br>",
+      "REQUIRES_UPDATE 는 ScatterProps 와 <br><br>",
+      "정확히 같은 속성을 가지게 매핑이 된것이다<br><br>"
+    ]
+  },
+  {
+    "id": 66,
+    "headId": "ts-infer",
+    "headHref": "#ts-infer",
+    "headName": "타입추론",
+    "folder": "TSPIC",
+    "picture": "ts066타입추론.png",
+    "contentArr": [
+      "타입추론이 가능한것은 꼭 타입을 명시하지 않아도 된다<br><br>",
+      "예) 타입 구조분해 할당시 타입이 추론된다<br><br><br>",
+      "반면, 특정타입을 받는 함수를 이용하기 위해서는 <br><br>",
+      "사용변수에 타입을 명시해야한다<br><br>"
+    ]
+  },
+  {
+    "id": 67,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts067타입추론.png",
+    "contentArr": [
+      "주식시세조회 로직인데<br><br>",
+      "한번조회한 종목은 다시 요청하지 않게 하는 로직이다<br><br><br>",
+      "getQuote 는 number | Promise 2가지를 반환한다<br><br>"
+    ]
+  },
+  {
+    "id": 68,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts068타입추론.png",
+    "contentArr": [
+      "반환타입을 명시하면 오류를 잡아낼 수 있다<br><br>",
+      "반환타입을 명시하는 이유 2가지<br><br>",
+      "1. 함수에 대해 명확하게 알 수 있다<br><br>",
+      "2. 명명된 타입을 사용하기 위함<br><br>"
+    ]
+  },
+  {
+    "id": 69,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts069타입구분.png",
+    "contentArr": [
+      "id는 string이고 함수는 number를 받는다<br><br>",
+      "id로 모든걸 하려하지 말고<br><br>",
+      "새로운 number타입 변수를만들어서 사용하자<br><br>"
+    ]
+  },
+  {
+    "id": 70,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts070타입넓히기.png",
+    "contentArr": [
+      "let을 사용하면 타입추론의 범위가 넓어진다<br><br>",
+      "그보다도 값의 변경이 열려있기 때문이다<br><br>",
+      "즉 타입이 보장이 안된다<br><br>"
+    ]
+  },
+  {
+    "id": 71,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts071타입넓히기.png",
+    "contentArr": [
+      "const 를 사용하여 타입을 좁힐 수 있다<br><br>",
+      "즉 상수로 선언하여 변경을 차단하는 것이다<br><br>",
+      "즉 타입이 보장이 된다<br><br>"
+    ]
+  },
+  {
+    "id": 72,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts072타입넓히기.png",
+    "contentArr": [
+      "타입추론의 강도를 제어하는 3가지방법<br><br>",
+      "1.명시적타입구문 제공하기<br><br>",
+      "2. 타입체커에게 추가적인 문맥을 제공한다<br><br>",
+      "3. const 단언문을 사용한다<br><br>",
+      "공통점은 타입을 제한시켜주고 보장해주는 것이다<br><br>"
+    ]
+  },
+  {
+    "id": 73,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts073타입넓히기.png",
+    "contentArr": [
+      "const는 readonly랑 비슷하다<br><br>",
+      "v1에서 x와 y는 number로 타입추론이 된다<br><br>",
+      "v2에서 x는1로 y는 number로 타입추론이 된다<br><br>",
+      "v3에서 readonly를 붙여서 x는1 y는2로 타입추론이된다<br><br>"
+    ]
+  },
+  {
+    "id": 74,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts074타입넓히기.png",
+    "contentArr": [
+      "타입추론과 const 단언문의 차이<br><br>"
+    ]
+  },
+  {
+    "id": 75,
+    "headId": "ts-short2",
+    "headHref": "#ts-short2",
+    "headName": "타입좁히기2",
+    "folder": "TSPIC",
+    "picture": "ts075타입좁히기.png",
+    "contentArr": [
+      "1. 조건문으로 타입 좁히기<br><br>"
+    ]
+  },
+  {
+    "id": 76,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts076타입좁히기.png",
+    "contentArr": [
+      "2. instanceof로 타입 좁히기<br><br>"
+    ]
+  },
+  {
+    "id": 77,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts077타입좁히기.png",
+    "contentArr": [
+      "3. 속성체크로 타입 좁히기<br><br>"
+    ]
+  },
+  {
+    "id": 78,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts078타입좁히기.png",
+    "contentArr": [
+      "4. 내장함수로 타입 좁히기<br><br>",
+      "어쨌든간 string[]로 좁혀진다<br><br>"
+    ]
+  },
+  {
+    "id": 79,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts079타입좁히기.png",
+    "contentArr": [
+      "5. 공통키에서 값으로 타입좁히기<br><br>"
+    ]
+  },
+  {
+    "id": 80,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts080타입좁히기.png",
+    "contentArr": [
+      "6. 사용자 정의 타입가드 기법<br><br>",
+      "반환타입의 el is HTMLInputElement는 <br><br>",
+      "함수의 반환이 true인 경우<br><br>",
+      "타입체커에게 매개변수의 타입을 좁힐수 있다고 알려준다<br><br>"
+    ]
+  },
+  {
+    "id": 81,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts081타입좁히기.png",
+    "contentArr": [
+      "여전히 undefined를 걸러내지 못한다<br><br>"
+    ]
+  },
+  {
+    "id": 82,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts082타입좁히기.png",
+    "contentArr": [
+      "타입가드를 만들면 undefined를 걸러낼 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 83,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts083객체생성.png",
+    "contentArr": [
+      "객체는 한번에 생성하는게 좋다<br><br>",
+      "객체를 나눠서 만들려면 타입단언문을 사용<br><br>",
+      "전개구문을 사용하면 큰 객체를한번에 만들수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 84,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts084객체생성.png",
+    "contentArr": [
+      "타입추론까지 자동으로 된다<br><br>"
+    ]
+  },
+  {
+    "id": 85,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts085객체생성.png",
+    "contentArr": [
+      "타입에 안전한 방식으로 조건부 속성을 추가하려면<br><br>",
+      "속성을 추가하지않는 null이나 { } 로 객체 전개하면된다<br><br>",
+      "여기서는 mid속성이 예시이다<br><br>"
+    ]
+  },
+  {
+    "id": 86,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts086객체생성.png",
+    "contentArr": [
+      "mid속성은 선택적이게 되었다<br><br>"
+    ]
+  },
+  {
+    "id": 87,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts087일관된별칭.png",
+    "contentArr": [
+      "[ ]  { } 빈값은 없음을 나타내는 좋은 방법이다<br><br>",
+      "item 24의 결론은 참조형과 기본형에 대한것이다",
+      "반복되는 별칭은 일관되게 사용하자<br><br>",
+      "여기서는 bbox이다<br><br>"
+    ]
+  },
+  {
+    "id": 88,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts088일관된별칭.png",
+    "contentArr": [
+      "반복되는 별칭은 일관되게 사용하자<br><br>",
+      "여기서는 bbox이다<br><br>"
+    ]
+  },
+  {
+    "id": 89,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts089비동기.png",
+    "contentArr": [
+      "비동기는 콜벡대신 async 사용하자<br><br>"
+    ]
+  },
+  {
+    "id": 90,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts090비동기.png",
+    "contentArr": [
+      "타입<br><br>"
+    ]
+  },
+  {
+    "id": 91,
+    "headId": "ts-infercontext",
+    "headHref": "#ts-infercontext",
+    "headName": "추론문맥",
+    "folder": "TSPIC",
+    "picture": "ts091추론문맥.png",
+    "contentArr": [
+      "let의 경우는 지금은 'JS'이지만 향후 'RR'이라든지<br><br>",
+      "값이 바뀔수 있는 여지가 있기때문이다<br><br>",
+      "여기서알 수 있는 사실은 <br><br>",
+      "자료형과 내가 만든 자료형은 완전히 다르다 이다<br><br>",
+      "'JS' 는 string 타입이지만 서로는 다른느낌<br><br>"
+    ]
+  },
+  {
+    "id": 92,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts092추론문맥.png",
+    "contentArr": [
+      "let에 타입을 정해주면 바뀔수있는 값이 한정된다<br><br>"
+    ]
+  },
+  {
+    "id": 93,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts093추론문맥.png",
+    "contentArr": [
+      "const 처럼 상수로 변경이 안되는것으로 만드는 것도 가능<br><br>"
+    ]
+  },
+  {
+    "id": 94,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts094추론문맥.png",
+    "contentArr": [
+      "loc의 타입을 number[ ]로 평가하여 튜플인 [number, number]와 다르다<br><br>"
+    ]
+  },
+  {
+    "id": 95,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts095추론문맥.png",
+    "contentArr": [
+      "loc의 타입을 튜플 [number, number]로 정해주자 <br><br>"
+    ]
+  },
+  {
+    "id": 96,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts096추론문맥.png",
+    "contentArr": [
+      "const는 값이 가르키는 참조가 변하지 않는 얕은 상수이다 <br><br>",
+      "as const 를 이용하여 깊은 상수로 만들었다 <br><br>",
+      "loc2의 타입은 readonly [10, 20]가 된다 <br><br>"
+    ]
+  },
+  {
+    "id": 97,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts097추론문맥.png",
+    "contentArr": [
+      "함수의 인자부분에 readonly를 넣어주어야한다 <br><br>"
+    ]
+  },
+  {
+    "id": 98,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts098추론문맥.png",
+    "contentArr": [
+      "처음부터 반복되는 타입을 선언하여 이용하는것이다<br><br>",
+      "핵심은 타입체커에게 정확한 타입을 전달해주면 된다 <br><br>"
+    ]
+  },
+  {
+    "id": 99,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts099추론문맥.png",
+    "contentArr": [
+      "객체를 사용할때 주의해야하는 부분이있다<br><br>",
+      "개별적인 타입을 명시해주지 않으면 타입체커가 자료형타입으로 간주한다 <br><br>",
+      "이것이 객체를 사용할때 interface를 이용하여 타입을 사용하는 이유다 <br><br>"
+    ]
+  },
+  {
+    "id": 100,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts100추론문맥.png",
+    "contentArr": [
+      "타입을 확인한결과 자료형으로 인식한다<br><br>"
+    ]
+  },
+  {
+    "id": 101,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts101추론문맥.png",
+    "contentArr": [
+      "이렇게 타입을 명시해야 내가 선언한타입으로 인지한다<br><br>"
+    ]
+  },
+  {
+    "id": 102,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts102추론문맥.png",
+    "contentArr": [
+      "아까와 같은 문제를 해결하는 다른방법은 상수단언이다<br><br>",
+      "그 값 하나로 정해버리는 것이다<br><br>"
+    ]
+  },
+  {
+    "id": 103,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts103추론문맥.png",
+    "contentArr": [
+      "콜벡함수를 넣으면 인자별로 타입을 인식한다<br><br>"
+    ]
+  },
+  {
+    "id": 104,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts104추론문맥.png",
+    "contentArr": [
+      "콜벡함수를 밖으로 빼면 타입을 인식할 수 없다<br><br>"
+    ]
+  },
+  {
+    "id": 105,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts105추론문맥.png",
+    "contentArr": [
+      "처음부터 함수형 타입을 만들어 사용하면 오류를 방지 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 106,
+    "headId": "ts-design",
+    "headHref": "#ts-design",
+    "headName": "타입설계",
+    "folder": "TSPIC",
+    "picture": "ts106타입설계.png",
+    "contentArr": [
+      "상태별로 인터페이스를 구분해주자<br><br>"
+    ]
+  },
+  {
+    "id": 107,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts107타입설계.png",
+    "contentArr": [
+      "? 붙은것은 선택적이고 약한타입이라고 한다<br><br>",
+      "| 유니언 처럼 선택의 여지가 있는것이 느슨하다고 한다<br><br>",
+      "필수타입이 있는 것을 강한타입이라하고 엄격하다<br><br><br>",
+      "LngLatBounds 로 받을때는 느슨하게 받고<br><br>",
+      "반환할 때는 Camera로 엄격하게 <br><br>",
+      "Omit&lt Partial&lt Camera &gt, 'center' &gt는 <br><br>",
+      "Camera 에서  'center'만 제외한 나머지 키들을 가져온다<br><br>",
+      "center : LngLat 대신에 이후에 center ?: LngLatLike 이걸 추가가능<br><br>",
+      "Partial 이니까 ? 붙은 속성들로 전환<br><br>"
+    ]
+  },
+  {
+    "id": 108,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts108타입설계.png",
+    "contentArr": [
+      "null을 사용하여 undefined를 방지한다<br><br>",
+      "사용자에서는 !를 이용하여 null이 아님을 단언<br><br>"
+    ]
+  },
+  {
+    "id": 109,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts109타입설계.png",
+    "contentArr": [
+      "처음부터 interface로 묶어서 분류를 하는것이다<br><br>",
+      "Line의 layout이면 Line을 Paint 해야하니까<br><br>",
+      "Line의 layout인데 Fill을 Paint하는건 말이 안된다<br><br>",
+      "이런 오류를 미리 방지하는게 요점이다<br><br>"
+    ]
+  },
+  {
+    "id": 110,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts110타입설계.png",
+    "contentArr": [
+      "자료형 타입은 범위가 넓다<br><br>",
+      "따라서 구체적으로 내가 정해줄 필요가 있다<br><br>"
+    ]
+  },
+  {
+    "id": 111,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts111타입설계.png",
+    "contentArr": [
+      "부정확한것보다는 미완성이지만 언제라도 완성할 수 있는 타입사용<br><br>",
+      "FnName을 보면 제작자가 원하는 모든 기호를 넣지 못했다<br><br>",
+      "하지만 이는 언제라도 완성이 가능하다<br><br>"
+    ]
+  },
+  {
+    "id": 112,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts112타입설계.png",
+    "contentArr": [
+      "여기서 상표란 구분을 하기 위한 수단이다<br><br>",
+      "_brand가 상표의 예시이다<br><br>"
+    ]
+  },
+  {
+    "id": 113,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts113타입설계.png",
+    "contentArr": [
+      "상표가 없으면 공통된키가 있더라도 통과를 시키지 않는다<br><br>"
+    ]
+  },
+  {
+    "id": 114,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts114타입설계.png",
+    "contentArr": [
+      "그럼 상표만 넣는다해서 사용할 수 있을까???<br><br>",
+      "당연히 아니다<br><br>",
+      "객체속의 상표는 string타입이기 때문에 상표타입하고 다르기 때문이다<br><br>"
+    ]
+  },
+  {
+    "id": 115,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "TSPIC",
+    "picture": "ts115타입설계.png",
+    "contentArr": [
+      "따라서 상수 단언을 하여 상표타입으로 타입체커에게 알려주어야한다<br><br>"
+    ]
   }
 ]

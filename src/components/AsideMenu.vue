@@ -9,9 +9,9 @@
           <router-link class="link" :to="{ name: 'Home'}">About me </router-link>
         </div>
         <div>
-          <div class="title-toggle">
+          <div class="title-toggle" @click="studyToggle">
             <span class="title">Study</span>
-            <i class="fa-solid fa-angle-down" @click="studyToggle" :class="{ toggleRotate :visibleObj.study }"></i>
+            <i class="fa-solid fa-angle-down" :class="{ toggleRotate :visibleObj.study }"></i>
           </div>
           <ul v-if="visibleObj.study">
             <li>
@@ -35,9 +35,9 @@
           </ul>
         </div>
         <div>
-          <div class="title-toggle">
+          <div class="title-toggle" @click="praticesToggle">
             <span class="title">Practice</span>
-            <i class="fa-solid fa-angle-down" @click="praticesToggle" :class="{ toggleRotate :visibleObj.pratices }"></i>
+            <i class="fa-solid fa-angle-down" :class="{ toggleRotate :visibleObj.pratices }"></i>
           </div>
           <ul v-if="visibleObj.pratices">
             <li>
@@ -49,9 +49,9 @@
           </ul>
         </div>
         <div>
-          <div class="title-toggle">
+          <div class="title-toggle" @click="blogToggle">
             <span class="title">Blog</span>
-            <i class="fa-solid fa-angle-down" @click="blogToggle" :class="{ toggleRotate :visibleObj.blog }"></i>
+            <i class="fa-solid fa-angle-down" :class="{ toggleRotate :visibleObj.blog }"></i>
           </div>
           <ul v-if="visibleObj.blog">
             <li>
@@ -60,7 +60,7 @@
           </ul>
         </div>
       </div>
-      <div class="github-letter">
+      <div class="github-letter" v-if="!showAsideMenu">
         <i class="fa-solid fa-envelope"></i>
         <span> hadee2021@github.com </span>
         <i class="fa-brands fa-github"></i>
@@ -73,7 +73,7 @@
 </template>
 
 <script>
-import {  ref } from 'vue'
+import { ref } from 'vue'
 
 export default {
   emits: ['close'],
@@ -160,13 +160,15 @@ export default {
     transform: rotate(180deg);
   }
   .AsidMenuForm {
+    height: 40%;
+    overflow: scroll;
     position: fixed;
     top: 90px;
     left: 5px;
     width: 300px;
     /* height: calc(100vh - 20px); */
     border: 2px solid rgb(66, 194, 255);
-    background-color: rgba(66, 194, 255, 0.8);
+    background-color: rgba(66, 194, 255);
     margin: 5px 0 0 20px;
     overflow: auto;
     border-radius: 16px;

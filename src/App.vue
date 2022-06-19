@@ -7,11 +7,11 @@
           v-if="!showAsideMenu"
         >
         </i>
-        <i 
+        <!-- <i 
           class="fa-solid fa-xmark closebtn"
           v-if="showAsideMenu"
         >
-        </i>
+        </i> -->
       </div>
       <div>Hadee`s Blog</div>
       <div></div>
@@ -25,7 +25,7 @@
     <div class="nav-menu">
       <NavigationMenu />
     </div>
-    <teleport to='#modal' >
+    <teleport to='#modal'>
       <AsideMenu 
         v-if="showAsideMenu"
         class="modal-wrapper"
@@ -83,6 +83,7 @@ export default {
     overflow: auto;
     border-radius: 16px;
   }
+  
   #router-area {
     overflow: auto;
     flex: 1;

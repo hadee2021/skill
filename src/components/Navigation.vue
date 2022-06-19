@@ -39,7 +39,7 @@ export default {
     font-size: 17px;
   }
   a:hover {
-    color: #42b883;
+    color: #235A97;
     cursor: pointer;
   }
 </style>

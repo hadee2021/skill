@@ -81,9 +81,9 @@
   },
   {
     "id": 4,
-    "headId": "",
-    "headHref": "",
-    "headName": "",
+    "headId": "r-state",
+    "headHref": "#r-state",
+    "headName": "1. useState",
     "folder": "REACTPIC",
     "picture": "react004훅.png",
     "contentArr": [
@@ -197,9 +197,9 @@
   },
   {
     "id": 11,
-    "headId": "",
-    "headHref": "",
-    "headName": "",
+    "headId": "r-effect",
+    "headHref": "#r-effect",
+    "headName": "2. useEffect",
     "folder": "REACTPIC",
     "picture": "react011훅.png",
     "contentArr": [
@@ -277,9 +277,9 @@
   },
   {
     "id": 17,
-    "headId": "",
-    "headHref": "",
-    "headName": "",
+    "headId": "r-ref",
+    "headHref": "#r-ref",
+    "headName": "3. useRef",
     "folder": "REACTPIC",
     "picture": "react017훅.png",
     "contentArr": [
@@ -462,9 +462,9 @@
   },
   {
     "id": 32,
-    "headId": "",
-    "headHref": "",
-    "headName": "",
+    "headId": "r-context",
+    "headHref": "#r-context",
+    "headName": "4. useContext",
     "folder": "REACTPIC",
     "picture": "react032훅.png",
     "contentArr": [
@@ -553,9 +553,9 @@
   },
   {
     "id": 39,
-    "headId": "",
-    "headHref": "",
-    "headName": "",
+    "headId": "r-memo",
+    "headHref": "#r-memo",
+    "headName": "5. useMemo",
     "folder": "REACTPIC",
     "picture": "react039훅.png",
     "contentArr": [
@@ -687,9 +687,9 @@
   },
   {
     "id": 48,
-    "headId": "",
-    "headHref": "",
-    "headName": "",
+    "headId": "r-callback",
+    "headHref": "#r-callback",
+    "headName": "6. useCallback",
     "folder": "REACTPIC",
     "picture": "react048훅.png",
     "contentArr": [
@@ -812,6 +812,709 @@
       "Box에서는 Props가 변하면<br><br>",
       "useEffect를 실행하여<br><br>",
       "최종적으로 style을 바꿔준다<br><br>"
+    ]
+  },
+  {
+    "id": 57,
+    "headId": "r-reducer",
+    "headHref": "#r-reducer",
+    "headName": "7. useReducer",
+    "folder": "REACTPIC",
+    "picture": "react057훅.png",
+    "contentArr": [
+      "useReducer는 상태관리를 한다<br><br>"
+    ]
+  },
+  {
+    "id": 58,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react058훅.png",
+    "contentArr": [
+      "useReducer사용 흐름<br><br>"
+    ]
+  },
+  {
+    "id": 59,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react059훅.png",
+    "contentArr": [
+      "useReducer기하적 구조<br><br>"
+    ]
+  },
+  {
+    "id": 60,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react060훅.png",
+    "contentArr": [
+      "예제는 은행에 예금 출금을 하는것이다<br><br>"
+    ]
+  },
+  {
+    "id": 61,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react061훅.png",
+    "contentArr": [
+      "7000원 입금시 잔고는 7000원으로 저장된다<br><br>"
+    ]
+  },
+  {
+    "id": 62,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react062훅.png",
+    "contentArr": [
+      "2000원 출금시 잔고는 5000원으로 저장된다<br><br>"
+    ]
+  },
+  {
+    "id": 63,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react063훅.png",
+    "contentArr": [
+      "reduce함수는 요청에 따라 state를 업데이트한다<br><br>",
+      "요청이 다양하여 switch case문을 사용함<br><br>"
+    ]
+  },
+  {
+    "id": 64,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react064훅.png",
+    "contentArr": [
+      "useReducer에서 money를 상태관리한다<br><br>",
+      "이벤트가 발생할 때 dispatch를 호출하여 요청 전달<br><br>"
+    ]
+  },
+  {
+    "id": 65,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react065훅.png",
+    "contentArr": [
+      "이번에는 출석부 예제이다<br><br>"
+    ]
+  },
+  {
+    "id": 66,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react066훅.png",
+    "contentArr": [
+      "input에 학생을 입력하면 리스트에 추가된다<br><br>",
+      "총 학생 수가 카운트된다<br><br>"
+    ]
+  },
+  {
+    "id": 67,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react067훅.png",
+    "contentArr": [
+      "삭제를 하면 리스트에서 제외되고<br><br>",
+      "학생이름을 클릭하면 취소선이 그어진다<br><br>"
+    ]
+  },
+  {
+    "id": 68,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react068훅.png",
+    "contentArr": [
+      "초기값을 객체로 주었다<br><br>"
+    ]
+  },
+  {
+    "id": 69,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react069훅.png",
+    "contentArr": [
+      "추가시 dispatch로 요청을하고<br><br>",
+      "초기값의 students키 값인 배열의 요소를<br><br>",
+      "Student 컴포넌트에 내려주고 있다<br><br>"
+    ]
+  },
+  {
+    "id": 70,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react070훅.png",
+    "contentArr": [
+      "reducer는 3가지를 처리한다<br><br>",
+      "추가 // 삭제 // 취소선 <br><br>"
+    ]
+  },
+  {
+    "id": 71,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react071훅.png",
+    "contentArr": [
+      "자식에서도 dispatch로 요청을 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 72,
+    "headId": "r-react-memo",
+    "headHref": "#r-react-memo",
+    "headName": "8. React.Memo",
+    "folder": "REACTPIC",
+    "picture": "react072훅.png",
+    "contentArr": [
+      "새로운 컴포넌트는 렌더링이 되어야할 상황에서<br><br>",
+      "오직 Prop Check를 통해서<br><br>",
+      "자신이 받는 Prop에 변화 여부를 확인한다<br><br>",
+      "변화가 없으면 렌더링하지 않고 기존의 값을 가져온다<br><br>"
+    ]
+  },
+  {
+    "id": 73,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react073훅.png",
+    "contentArr": [
+      "각각의 state를 변화시키면서 리렌더링을 일으켜본다<br><br>"
+    ]
+  },
+  {
+    "id": 74,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react074훅.png",
+    "contentArr": [
+      "부모를 리렌더링할때 자식도 초기화되야 하지만<br><br>",
+      "자식은 memo로 감싸고 props로 넘겨주는 변수에 변화가 없다<br><br>",
+      "따라서 부모만 리렌더링이 일어난다<br><br>"
+    ]
+  },
+  {
+    "id": 75,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react075훅.png",
+    "contentArr": [
+      "반면 자식을 리렌더링하면<br><br>",
+      "부모컴포넌트에서 자식의 state가 변해서 부모가 리렌더링된다<br><br>"
+    ]
+  },
+  {
+    "id": 76,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react076훅.png",
+    "contentArr": [
+      "부모는 parentAge와 ChildAge를 가진다<br><br>",
+      "둘다 useState를 사용하여 하나만 변해도 부모는 리렌더링됨<br><br>",
+      "parentAge 변하면 부모 리렌더링, 자식은 변화가 없다<br><br>",
+      "왜냐, 자식에게 props로  ChildAge를 넘겨주는데<br><br>",
+      "ChildAge는 그대로이기 때문이다<br><br>",
+      "ChildAge 변하면 부모에 state가 있기 때문에<br><br>",
+      "부모는 리렌더링된다<br><br>",
+      "자식은 ChildAge를  props로 전달받기 때문에<br><br>",
+      "자식도 리렌더링 된다<br><br>"
+    ]
+  },
+  {
+    "id": 77,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react077훅.png",
+    "contentArr": [
+      "자식은 export 부분에 memo를 호출하여 새로운 컴포넌트가 된다<br><br>"
+    ]
+  },
+  {
+    "id": 78,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react078훅.png",
+    "contentArr": [
+      "이번에는 부모에서만 리렌더링을 일으키게 해본다<br><br>"
+    ]
+  },
+  {
+    "id": 79,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react079훅.png",
+    "contentArr": [
+      "부모만 리렌더링<br><br>"
+    ]
+  },
+  {
+    "id": 80,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react080훅.png",
+    "contentArr": [
+      "부모에서 props로 넘겨주는 name은 객체이다<br><br>",
+      "객체는 리렌더링되면 초기화 되고 주소가 바뀐다<br><br>",
+      "그래서 객체에 useMemo과 빈배열을 사용하여<br><br>",
+      "처음만 객체를 호출하게 하고 이후에는 기존값을 유지하게 하였다<br><br>",
+      "결과적으로 props로 넘겨주는 name은 변하지 않는다<br><br>",
+      "부모가 리렌더링되도 자식은 그대로이다<br><br>"
+    ]
+  },
+  {
+    "id": 81,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react081훅.png",
+    "contentArr": [
+      "자식의 모습<br><br>"
+    ]
+  },
+  {
+    "id": 82,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react082훅.png",
+    "contentArr": [
+      "이번에는 부모에서 텔미함수를 만들고<br><br>",
+      "자식으로 props로 텔미함수를 내려주고<br><br>",
+      "자식에서 텔미를 호출하게 하였다<br><br>"
+    ]
+  },
+  {
+    "id": 83,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react083훅.png",
+    "contentArr": [
+      "부모에서 리렌더링이 일어나면 함수도 다시만들어지고<br><br>",
+      "함수의 주소도 새로 초기화되어<br><br>",
+      "Props 텔미 함수도 바껴야한다<br><br>",
+      "하지만 여긴 바뀌지 않게하였다<br><br>"
+    ]
+  },
+  {
+    "id": 84,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react084훅.png",
+    "contentArr": [
+      "자식에서 텔미함수를 호출한 것이다<br><br>"
+    ]
+  },
+  {
+    "id": 85,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react085훅.png",
+    "contentArr": [
+      "아까 부모가 리렌더링될때<br><br>",
+      "부모에 있던 텔미함수가 다시 만들어지지 않았다<br><br>",
+      "그이유는 useCallback과 빈배열을 사용했기 때문이다<br><br>",
+      "자식에서는 props로 넘어온 텔미함수가 그대로이기 때문에<br><br>",
+      "부모가 리렌더링되도 기존 컴포넌트 유지된것이다<br><br>"
+    ]
+  },
+  {
+    "id": 86,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react086훅.png",
+    "contentArr": [
+      "자식컴포넌트의 모습<br><br><br><br><br><br><br><br><br><br>"
+    ]
+  },
+  {
+    "id": 87,
+    "headId": "r-router",
+    "headHref": "#r-router",
+    "headName": "라우터",
+    "folder": "REACTPIC",
+    "picture": "react087라우터.png",
+    "contentArr": [
+      "라우팅이란 사용자가 요청한 URL에 따라 <br><br>",
+      "알맞는 페이지를 보여주는 것이다 <br><br>",
+      "npm i react-router-dom <br><br><br>",
+      "BrowserRouter =  라우터 적용 대상 <br><br>",
+      "Routes = Route 묶어주는 역할<br><br>",
+      "Route = 해당 url의 페이지<br><br>",
+      "Routes의 직속 자식이야함<br><br>",
+      "순차적으로 url과 일치하는지 본다<br><br>"
+    ]
+  },
+  {
+    "id": 88,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react088라우터.png",
+    "contentArr": [
+      " Link to='/' 는 url을 /로 바꿔주는 것이다 <br><br>",
+      "주소로 이동한다<br><br>",
+      "기본소개는 끝이다<br><br>"
+    ]
+  },
+  {
+    "id": 89,
+    "headId": "r-active-url",
+    "headHref": "#r-active-url",
+    "headName": "1. 동적 URL",
+    "folder": "REACTPIC",
+    "picture": "react089라우터.png",
+    "contentArr": [
+      "1) URL 파라미터<br><br>",
+      "주소의 경로에 유동적인 값을 넣는 형태이다 <br><br>",
+      "ID 또는 이름을 사용하여 특정 데이터를 조회할 때 사용함<br><br>",
+      "URL 파라미터 예시: /profile/velopert<br><br>",
+      "velopert는 변수이다<br><br><br><br>",
+      "URL 파라미터는<br><br>",
+      "1st. &ltRoute path='/profiles/:변수' element={&lt컴포넌트/&gt} /&gt<br><br>",
+      "경로에 : 를 사용하여 설정합니다. <br><br>"
+    ]
+  },
+  {
+    "id": 90,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react090라우터.png",
+    "contentArr": [
+      "2nd. &ltLink to='/profiles/velopert'&gt Link에서 변수값을 넣고 이동  <br><br>"
+    ]
+  },
+  {
+    "id": 91,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react091라우터.png",
+    "contentArr": [
+      "주소창의 velopert가 변수의 값이다<br><br>"
+    ]
+  },
+  {
+    "id": 92,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react092라우터.png",
+    "contentArr": [
+      "3rd.  useParams( )로 URL 파라미터를 조회하면<br><br>",
+      " {username: 'velopert'} 이렇게 나온다<br><br>",
+      " username변수에 velopert 값이 있는것이다<br><br>"
+    ]
+  },
+  {
+    "id": 93,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react093라우터.png",
+    "contentArr": [
+      "data를 정의해놓고<br><br>",
+      "url의 변수의 값에 따라서<br><br>",
+      "다양한 데이터를 렌더링할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 94,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react094라우터.png",
+    "contentArr": [
+      "2) 쿼리스트링<br><br>",
+      "URL 파라미터와 달리 Route 컴포넌트를 사용할 때 <br><br>",
+      "별도로 설정해야되는 것은 없다.<br><br>"
+    ]
+  },
+  {
+    "id": 95,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react095라우터.png",
+    "contentArr": [
+      "먼저 예제코드에서 useLocation( )을 보자<br><br>",
+      "useLocation( )은 location객체를 반환 하는데<br><br>",
+      "이 객체는 현재 사용자가 보고있는 페이지의 정보를 지니고 있다<br><br>"
+    ]
+  },
+  {
+    "id": 96,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react096라우터.png",
+    "contentArr": [
+      "예제를 실행한 첫화면<br><br>"
+    ]
+  },
+  {
+    "id": 97,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react097라우터.png",
+    "contentArr": [
+      "location객체를 콘솔에 찍어보았다<br><br>",
+      "pathname: 현재 주소의 경로 (쿼리스트링 제외)<br><br>",
+      "search: 맨 앞의 ? 문자 포함한 쿼리스트링 값<br><br>",
+      "hash: 주소의 # 문자열 뒤의 값<br><br>",
+      "state: 페이지로 이동할때 임의로 넣을 수 있는 상태 값<br><br>",
+      "key: location 객체의 고유 값이다 초기에는 default 이며 <br><br>",
+      "페이지가 변경될 때마다 고유의 값이 생성된다<br><br>"
+    ]
+  },
+  {
+    "id": 98,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react098라우터.png",
+    "contentArr": [
+      "주소창이 http://localhost:3000/about?detail=true&mode=7 일때<br><br>",
+      "쿼리스트링 값이 현재 ?detail=true&mode=7 으로 표시되는데<br><br>",
+      "여기에서 정보를 얻기 위해서<br><br>",
+      "? 를 지우고, & 문자열로 분리한뒤<br><br>",
+      "key 와 value 를 파싱하는 작업을 해야 한다<br><br><br>",
+      "useSearchParams( ) 훅을 이용하면 <br><br>",
+      "쿼리스트링을 더욱 쉽게 다룰 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 99,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react099라우터.png",
+    "contentArr": [
+      "location객체를 콘솔에 찍어보았다<br><br>",
+      "아까와는 다르게 정보들이 들어있다<br><br>"
+    ]
+  },
+  {
+    "id": 100,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react100라우터.png",
+    "contentArr": [
+      "1. searchParams는 쿼리파라미터를 조회하거나 수정하는<br><br>",
+      "메서드들이 담긴 객체를 반환한다<br><br>",
+      "get 메서드를 통해 특정 쿼리파라미터를 조회할 수 있다<br><br>",
+      "예) searchParams.get('detail') // detail키의 값을 가져온다 <br><br>",
+      "set 메서드를 통해 특정 쿼리파라미터를 업데이트 할 수 있다 <br><br>",
+      "조회시에 쿼리파라미터가 존재하지 않는다면 null 로 조회된다.<br><br>",
+      "쿼리파라미터를 조회할 때 값은 무조건 문자열타입이다<br><br>",
+      "즉 문자열로 'true' 반환한다<br><br><br>"
+    ]
+  },
+  {
+    "id": 101,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react101라우터.png",
+    "contentArr": [
+      "2. setSearchParams 는 쿼리파라미터를 객체형태로 <br><br>",
+      "업데이트할 수 있는 함수를 반환한다.<br><br>",
+      "setSearchParams({ mode, detail: detail === 'true' ? false : true })<br><br>",
+      "mode는 그대로 <br><br>",
+      "detail의 값은 조건에따라 true false<br><br>"
+    ]
+  },
+  {
+    "id": 102,
+    "headId": "r-nested-router",
+    "headHref": "#r-nested-router",
+    "headName": "2. 중첩라우터",
+    "folder": "REACTPIC",
+    "picture": "react102라우터.png",
+    "contentArr": [
+      "중첩라우터는 공통된 컴포넌트안에 다른것들을 보여준다<br><br>",
+      "Articles 컴포넌트에서 Outlet 컴포넌트를 사용하여<br><br>",
+      "children 으로 들어가는 JSX 엘리먼트를 보여주는 역할<br><br>",
+      "주소는 /articles/:id 가 된다<br><br>",
+      "id만 바뀌면서 다양한 컴포넌트가 라우팅 된다<br><br>"
+    ]
+  },
+  {
+    "id": 103,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react103라우터.png",
+    "contentArr": [
+      "위 사진은 2군데에 나누어 중첩라우팅을 사용했다<br><br>",
+      "1. Layout 컴포넌트에서 url에 따라<br><br>",
+      "Home, About, Profile 컴포넌트가 Outlet에서 보여진다<br><br>",
+      "Outlet은 Layout 컴포넌트안에 있다<br><br>",
+      "2. Articles에서 Article을 보여준다<br><br>"
+    ]
+  },
+  {
+    "id": 104,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react104라우터.png",
+    "contentArr": [
+      "Articles안에 Outlet으로 Article을 보여준다<br><br>"
+    ]
+  },
+  {
+    "id": 105,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react105라우터.png",
+    "contentArr": [
+      "Article은 url에서 변수의 값을 가져와서<br><br>",
+      "변수값에 따른 데이터로 렌더링 하였다<br><br>"
+    ]
+  },
+  {
+    "id": 106,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react106라우터.png",
+    "contentArr": [
+      "Articles의 첫 화면<br><br>"
+    ]
+  },
+  {
+    "id": 107,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react107라우터.png",
+    "contentArr": [
+      "게시글 1을 클릭하면<br><br>",
+      "url이 1이 추가되고<br><br>",
+      "url에서의 변수의값이 1임을 이용해 렌더링<br><br>"
+    ]
+  },
+  {
+    "id": 108,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react108라우터.png",
+    "contentArr": [
+      "게시글 3을 클릭하면<br><br>",
+      "url이 3으로 변경되고<br><br>",
+      "url에서의 변수의값이 3임을 이용해 렌더링<br><br>"
+    ]
+  },
+  {
+    "id": 109,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react109라우터.png",
+    "contentArr": [
+      "이제는 Layout 컴포넌트를 살펴보자<br><br>"
+    ]
+  },
+  {
+    "id": 110,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react110라우터.png",
+    "contentArr": [
+      "부가 기능을 다루려 한다<br><br>",
+      "useNavigate( ) 는 다른 페이지로 이동할 수 있는 함수를 반환한다<br><br>",
+      "인자가 숫자 타입이라면 앞으로 가거나, 뒤로 간다<br><br>"
+    ]
+  },
+  {
+    "id": 111,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react111라우터.png",
+    "contentArr": [
+      "화면에서 뒤로가기 버튼이다<br><br><br><br><br><br><br><br>"
     ]
   }
 ]

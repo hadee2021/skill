@@ -1673,5 +1673,87 @@
       "count를 감소시켜 7을 만들면<br><br>",
       "square도 같이 변해서 49을 가진다<br><br>"
     ]
+  },
+  {
+    "id": 123,
+    "headId": "r-hook-levelup",
+    "headHref": "#r-hook-levelup",
+    "headName": "훅 응용기술",
+    "folder": "REACTPIC",
+    "picture": "react123응용기술.png",
+    "contentArr": [
+      "useReducer와 useContext를 사용하면<br><br>",
+      "전역 + 상태관리를 할 수 있다<br><br>",
+      "이것의 장점은 국소적으로 관리가 수월하다<br><br><br>",
+      "포인트1. 별도의 공간에 3가지를 준비한다<br><br>",
+      "포인트2. useReducer을 호출하여 Context에 태우기<br><br>",
+      "포인트3. 필요한것만 사용처에서 쓰면된다<br><br><br>",
+      "요점은 useContext로 전역적으로 이동하게 하고<br><br>",
+      "useReducer로 상태를 관리한다<br><br>"
+    ]
+  },
+  {
+    "id": 124,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react124응용기술.png",
+    "contentArr": [
+      "전반적인 파일구조<br><br>",
+      "reducer 폴더안의 파일이 포인트 1번이다<br><br>"
+    ]
+  },
+  {
+    "id": 125,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react125응용기술.png",
+    "contentArr": [
+      "포인트1번 3가지의 준비과정<br><br>",
+      "reducer, 변수초기값<br><br>",
+      "Context이름 = createContext( )<br><br>",
+      "3가지를 하나의 파일에 만든다<br><br>"
+    ]
+  },
+  {
+    "id": 126,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react126응용기술.png",
+    "contentArr": [
+      "포인트2번 useContext에 useReducer태우기<br><br>",
+      "핵심은 useReducer의 반환값 배열을 보낸것이다<br><br>"
+    ]
+  },
+  {
+    "id": 127,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react127응용기술.png",
+    "contentArr": [
+      "포인트3. 받는작업 =&gt 날라온Context에서 반환배열받기<br><br>",
+      "const [state, dispatch] = useContext(Context이름)<br><br>",
+      "이후는 reducer사용하듯이 state와 dispatch사용<br><br>",
+      "reducer로 상태관리<br><br>"
+    ]
+  },
+  {
+    "id": 128,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react128응용기술.png",
+    "contentArr": [
+      "컴포넌트를 의미단위로 정리하여 리펙토링<br><br>",
+      "저렇게 의미로 보면 깔끔하고 피드백이 쉽다<br><br><br><br><br><br><br><br>"
+    ]
   }
 ]

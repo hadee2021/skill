@@ -1516,5 +1516,162 @@
     "contentArr": [
       "화면에서 뒤로가기 버튼이다<br><br><br><br><br><br><br><br>"
     ]
+  },
+  {
+    "id": 112,
+    "headId": "r-recoil",
+    "headHref": "#r-recoil",
+    "headName": "Recoil",
+    "folder": "REACTPIC",
+    "picture": "react112recoil.png",
+    "contentArr": [
+      "Atom으로 전역 상태관리를 한다<br><br>",
+      "redux대비 심플하고 간단하다<br><br>",
+      "전역 상태관리를 한다<br><br>"
+    ]
+  },
+  {
+    "id": 113,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react113recoil.png",
+    "contentArr": [
+      "1.index.js <br><br>",
+      "npm i recoil 설치<br><br>",
+      "index.js에서 RecoilRoot컴포넌트로 감싸야한다<br><br>"
+    ]
+  },
+  {
+    "id": 114,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react114recoil.png",
+    "contentArr": [
+      "atom 은 상태의 단위이다<br><br>",
+      "atom이 업데이트 되면 해당 atom을 구독하고 있던<br><br>",
+      "모든 컴포넌트들의 state가 새로운 값으로 리렌더링된다<br><br>"
+    ]
+  },
+  {
+    "id": 115,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react115recoil.png",
+    "contentArr": [
+      "2. atom.jsx <br><br>",
+      "우리가 공부할 것은 atom 과 selector<br><br>",
+      "atom은 상태의 단위이고 <br><br>",
+      "selector는 상태를 가공해서 사용하는 것이다<br><br>"
+    ]
+  },
+  {
+    "id": 116,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react116recoil.png",
+    "contentArr": [
+      "먼저 atom은 상태관리를 하는 원자이다<br><br>",
+      "key는 고유의 키 =&gt 구분의 용도<br><br>",
+      "default는 키의 기본값이다<br><br>",
+      "변수명Atom이 사용할 변수명<br><br>",
+      "즉 countAtom이 1 값을 가지고 있는 상태이다<br><br>"
+    ]
+  },
+  {
+    "id": 117,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react117recoil.png",
+    "contentArr": [
+      "selector는 atom의 상태를 가공하여 새롭게 사용한다<br><br>",
+      "key는 고유의 키 =&gt 구분의 용도<br><br>",
+      "get 프로퍼티에서 콜벡으로 가공을 정의한다<br><br>",
+      "get(countAtom)으로 상태가져와서 count에 담고<br><br>",
+      "count를 제곱하여 새로운 값을 반환하였다<br><br>",
+      "즉 countSquareAtom은 count제곱 값을 가지고 있는 상태이다<br><br><br>",
+      "selector는 get으로 가져온 상태가 변할때 같이 변한다<br><br>",
+      "단독으로 수정불가 readonly라고 생각하면 된다<br><br>"
+    ]
+  },
+  {
+    "id": 118,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react118recoil.png",
+    "contentArr": [
+      "3. 사용할곳<br><br>",
+      "useState와 비슷하다 <br><br>",
+      "count에 countAtom이 초기값으로 들어가고<br><br>",
+      "setCount(count + 1)로 count를 변경한다<br><br>",
+      "상태가 업데이트되면 리렌더링이 일어난다<br><br><br>",
+      "useRecoilState(  ) 의 역할을 반으로나누면<br><br>",
+      "useRecoilValue(  ) 과 useSetRecoilState( ) 로 나눌 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 119,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react119recoil.png",
+    "contentArr": [
+      "전역상태이기 때문에 props없이도 자식에서 사용가능<br><br>"
+    ]
+  },
+  {
+    "id": 120,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react120recoil.png",
+    "contentArr": [
+      "실행한 모습<br><br>",
+      "count는 1이다<br><br>",
+      "square는 count를 제곱한것이다<br><br>",
+      "증가는 count가 1씩 증가<br><br>",
+      "증가는 부모 컴포넌트에 있다<br><br>",
+      "감소는 count가 1씩 감소<br><br>",
+      "감소는 자식컴포넌트에 있다<br><br>"
+    ]
+  },
+  {
+    "id": 121,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react121recoil.png",
+    "contentArr": [
+      "count를 증가시켜 10을 만들면<br><br>",
+      "square도 같이 변해서 100을 가진다<br><br>",
+      "자식에서도 count를 보고있으니까 10을 가진다<br><br>"
+    ]
+  },
+  {
+    "id": 122,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react122recoil.png",
+    "contentArr": [
+      "자식에서 감소버튼을 눌러보자<br><br>",
+      "count를 감소시켜 7을 만들면<br><br>",
+      "square도 같이 변해서 49을 가진다<br><br>"
+    ]
   }
 ]

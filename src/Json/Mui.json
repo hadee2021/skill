@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "headId": "mui-big-picture",
+    "headHref": "#mui-big-picture",
+    "headName": "mui 개관",
+    "folder": "MUIPIC",
+    "picture": "mui01기본.png",
+    "contentArr": [
+      "Mui는 react에서의 디자인 프레임 워크이다<br><br>",
+      "CSS로 구현하는데 걸리는 시간을 혁신적으로 줄일 수 있다<br><br>",
+      "이번에는 Mui의 활용을 공부하여 정리를 하였다<br><br>",
+      "그리고 이러한 Mui 문서를 볼 때 봐야하는 것들을<br><br>",
+      "간략하게 정리하였다<br><br>",
+      "이로써 Mui만에 국한되지않고 새로운 도구의 문서를 볼때<br><br>",
+      "어느것에 초점을 맞춰서 읽고 사용해야하는지 도움이 될것이다<br><br><br>",
+      "문서에서 먼저 큰 분류를 해보았다<br><br>",
+      "레이아웃 입력단위 모달창 등등의 사용에 대한 분류이다<br><br>",
+      "다음은 위의 컴포넌트를 그대로 사용할지????<br><br>",
+      "vs<br><br>",
+      "팀의 규칙에 맞게 customiaztion 할지???<br><br>",
+      "API를 보면 컴포넌트의 속성과 개인화 방법이 나타나 있다<br><br>"
+    ]
+  },
+  {
+    "id": 2,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui02기본.png",
+    "contentArr": [
+      "Mui에서 기본적인 도구와 아이콘이 있다<br><br>",
+      "npm install @mui/material @emotion/react @emotion/styled<br><br>",
+      "npm install @mui/icons-material<br><br>"
+    ]
+  },
+  {
+    "id": 3,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui03기본.png",
+    "contentArr": [
+      "테마에 대한 기본값은 사진처럼 정리되있다<br><br>",
+      "가령 색에 대한 정보가 궁금하면<br><br>",
+      "palette에서 색에 대한 속성값을 확인 할 수 있다<br><br>",
+      "또한 여기에서 customiaztion 할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 4,
+    "headId": "mui-01",
+    "headHref": "#mui-01",
+    "headName": "mui 기본1",
+    "folder": "MUIPIC",
+    "picture": "mui04도구.png",
+    "contentArr": [
+      "예시는 간단한 레이아웃과 배치를 보여준다<br><br>",
+      "공통적인 약속 몇가지를 먼저 정리하였다<br><br>",
+      "&lt 컴포 넌트 Props &gt Props에 따라 다양한 기능을 보여준다<br><br>",
+      "sx= {{ 컴포넌트에 스타일 주기 }}<br><br>"
+    ]
+  },
+  {
+    "id": 5,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui05도구.png",
+    "contentArr": [
+      "&lt Container fixed &gt 는 화면 영역을 전체넓이대비<br><br>",
+      "컨텐츠가 차지하는비율로 채워서 고정해준다<br><br>",
+      "이렇게하면 화면이 줄어들때 컨텐츠 영역도 같이 보정되어 줄어든다<br><br>",
+      "이를 반응형 디자인이라고 한다<br><br><br><br>",
+      "&lt Grid container &gt 은 행을 나타내는데 <br><br>",
+      "하나의 묶음 단위라고 생각하면 된다<br><br>",
+      "왜냐, 하나의 행안에서 열이 아래에도 있을 수 있기 때문이다<br><br>",
+      "마치 2행 3행처럼 보여지지만 하나의 행인경우이다<br><br><br>",
+      "&lt Grid item xs={2} &gt 은 열을 나타낸다<br><br>",
+      "1줄마다 xs 12를 나눠갖는다<br><br>",
+      "그냥 xs만 넣으면 남은 여백을 모두 가진다<br><br>"
+    ]
+  },
+  {
+    "id": 6,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui06도구.png",
+    "contentArr": [
+      "Button 태그는 variant로 스타일 지정<br><br>",
+      "ButtonGroup 태그는 버튼을 그룹화 한다<br><br>",
+      "&lt Dialog open={boolean} &gt 는 모달형식의 대화창이다<br><br>",
+      "기존의 컴포넌트에 영향이 없고<br><br>",
+      "이건 문서 형식 따라가면 된다 <br><br>",
+      "DialogTitle =&gt 제목<br><br>",
+      "DialogContent 와 DialogContentText =&gt 내용<br><br>",
+      "DialogActions =&gt 이벤트 행동들<br><br><br>"
+    ]
+  },
+  {
+    "id": 7,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui07도구.png",
+    "contentArr": [
+      "이렇게 모달창이 나온다<br><br>"
+    ]
+  },
+  {
+    "id": 8,
+    "headId": "mui-02",
+    "headHref": "#mui-02",
+    "headName": "mui 기본2",
+    "folder": "MUIPIC",
+    "picture": "mui08도구.png",
+    "contentArr": [
+      "이번에는 mui template에 있는 로그인창이다<br><br>",
+      "이걸 간단하게 구현해보는 연습을 해봤다<br><br>"
+    ]
+  },
+  {
+    "id": 9,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui09도구.png",
+    "contentArr": [
+      "로그인창은 필드를 클릭하면<br><br>",
+      "동적으로 라벨이 바뀌는점이 참신하다<br><br>"
+    ]
+  },
+  {
+    "id": 10,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui10도구.png",
+    "contentArr": [
+      "먼저 컴포는트 단위의 레이아웃을 구성하였다<br><br>"
+    ]
+  },
+  {
+    "id": 11,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui11도구.png",
+    "contentArr": [
+      "Box는 div같은 역할을 한다<br><br><br>",
+      "&lt Typography component='h1' variant='h5' &gt <br><br>",
+      "텍스트의 스타일을 원하는대로 지정할 수 있다 <br><br>",
+      "component 는 감싸진 태그<br><br>",
+      "variant는 적용 디자인<br><br>",
+      "여기서는 h1태그로 사용하되<br><br>",
+      "폰트는 h5를 쓴것처럼 하겠다는것이다<br><br><br>"
+    ]
+  },
+  {
+    "id": 12,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui12도구.png",
+    "contentArr": [
+      "&lt TextField &gt <br><br>",
+      "label = 보여주는 라벨 <br><br>",
+      "required = 필수입력 <br><br>",
+      "fullWidth 너비 100%<br><br>",
+      "autoComplete ='email' 자동완성기능<br><br>",
+      "name='email' 입력한 내용의 정보연결 value라고 생각<br><br>"
+    ]
+  },
+  {
+    "id": 13,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui13도구.png",
+    "contentArr": [
+      "&lt FormControlLabel &gt 폼의 요소와 레이블 연결 <br><br>",
+      "control에 폼을넣기 <br><br>"
+    ]
+  },
+  {
+    "id": 14,
+    "headId": "mui-03",
+    "headHref": "#mui-03",
+    "headName": "mui 기본3",
+    "folder": "MUIPIC",
+    "picture": "mui14도구.png",
+    "contentArr": [
+      "이번에는 간단한 여행 홈페이지를 만들었다 <br><br>",
+      "구성은 메인페이지에 카드형식으로 여행상품을 나열하고<br><br>"
+    ]
+  },
+  {
+    "id": 15,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui15도구.png",
+    "contentArr": [
+      "카드를 클릭하면 상세 페이지를 볼 수 있는 구조 이다<br><br>"
+    ]
+  },
+  {
+    "id": 16,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui16도구.png",
+    "contentArr": [
+      "마지막으로 홈 모달을 클릭하면 홈으로 갈 수 있다<br><br>",
+      "이번실습은 배운 mui의 기술을 최대한 사용하는데에 목적이있다<br><br>"
+    ]
+  },
+  {
+    "id": 17,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui17도구.png",
+    "contentArr": [
+      "데이터는 json을 활용하였는데<br><br>",
+      "데이터를 그룹화하여 그룹마다 tour정보가 있다<br><br>",
+      "마치 서류함 속의 서류 상자들이있고<br><br>",
+      "상자마다 서류 파일이있는 모습<br><br>"
+    ]
+  },
+  {
+    "id": 18,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui18도구.png",
+    "contentArr": [
+      "그리고 각 객체마다는 id는 고유의 값으로 사용하였다<br><br>"
+    ]
+  },
+  {
+    "id": 19,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui19도구.png",
+    "contentArr": [
+      "fragment 빈태그를 사용하면<br><br>",
+      "div 없이 내용들을 묶을 수 있다<br><br><br>",
+      "데이터의 json 구조대로 배열메서드를 이중으로 사용하였다<br><br>",
+      "먼저 city.name으로 바깥부분을 보여주고<br><br>",
+      "다음으로 city.tours로 내부의 배열을 돌려 주었다<br><br>"
+    ]
+  },
+  {
+    "id": 20,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui20도구.png",
+    "contentArr": [
+      "데이터의 구조를 시각화하면 사진과 같다<br><br>",
+      "파란색의 큰 그룹이고<br><br>",
+      "빨간색이 내부의 데이터이다<br><br>"
+    ]
+  },
+  {
+    "id": 21,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui21도구.png",
+    "contentArr": [
+      "TourCard에서 데이터를 보여주는데<br><br>",
+      "여기서는 customiaztion를 먼저 설명 한다<br><br>",
+      "테마를 정의하고 ThemeProvider를 이용하면<br><br>",
+      "해당영역에 customiaztion를 적용할 수 있다<br><br>"
+    ]
+  },
+  {
+    "id": 22,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui22도구.png",
+    "contentArr": [
+      "customiaztion정의는 적용할 컴포넌트(MuiTypography)와<br><br>",
+      "내부의 속성(variants)을 지정하여<br><br>",
+      "속성당 적용 내용(props가 x 일때 style y)을 객체로 넣어주면 된다<br><br>"
+    ]
+  },
+  {
+    "id": 23,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui23도구.png",
+    "contentArr": [
+      "다음은 메인페이지에서 카드를 클릭할때<br><br>",
+      "카드에서의 사진을 상세 페이지에서도 보여주는것이다<br><br>"
+    ]
+  },
+  {
+    "id": 24,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui24도구.png",
+    "contentArr": [
+      "이렇게 사진을 동일하게 연동하는것이다<br><br>"
+    ]
+  },
+  {
+    "id": 25,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui25도구.png",
+    "contentArr": [
+      "페이지가 달라서 props로 넘길 수도 없고<br><br>",
+      "그렇다고 매번 json을 불러올 수 는 없기 때문에<br><br>",
+      "json에서 받아온 데이터중에서 사용자가 원하는 데이터만<br><br>",
+      "atom으로 전역 관리 하게 하였다<br><br>"
+    ]
+  },
+  {
+    "id": 26,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui26도구.png",
+    "contentArr": [
+      "사용자가 원하는 정보는 사용자가 클릭할 때 알 수 있다<br><br>",
+      "그래서 onClick에서 호출하는 함수에서 tour 정보를 <br><br>",
+      "recoil의 tourState상태에 넣어주었다<br><br>"
+    ]
+  },
+  {
+    "id": 27,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "MUIPIC",
+    "picture": "mui27도구.png",
+    "contentArr": [
+      "tourState상태에서 이미지 정보만 가져와서 사용하였다<br><br>",
+      "<br><br><br><br><br>"
+    ]
+  },
+  {
+    "id": 28,
+    "headId": "mui-git",
+    "headHref": "#mui-git",
+    "headName": "gitHub",
+    "folder": "",
+    "picture": "",
+    "contentArr": [
+      "<a href='https://github.com/hadee2021/Mui-practice' target='_blank'> 연습1,2 깃허브</a> <br><br>",
+      "<a href='https://github.com/hadee2021/Mui-tour' target='_blank'> mui 투어 깃허브</a> <br><br>",
+      "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+    ]
+  }
+]

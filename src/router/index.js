@@ -11,8 +11,8 @@ import Ts from '@/pages/study/Ts.vue'
 import TsNav from '@/pages/study/TsNav.vue'
 import React from '@/pages/study/React.vue'
 import ReactNav from '@/pages/study/ReactNav.vue'
-import Cs from '@/pages/study/Cs.vue'
-import CsNav from '@/pages/study/CsNav.vue'
+import Mui from '@/pages/study/Mui.vue'
+import MuiNav from '@/pages/study/MuiNav.vue'
 import Youtube from '@/pages/practice/Youtube.vue'
 import YoutubeNav from '@/pages/practice/YoutubeNav.vue'
 import Todo from '@/pages/practice/Todo.vue'
@@ -72,11 +72,11 @@ const router = createRouter({
       }
     },
     {
-      path: '/study/cs',
-      name: 'Cs',
+      path: '/study/mui',
+      name: 'Mui',
       components: { 
-        default: Cs,
-        nav: CsNav
+        default: Mui,
+        nav: MuiNav
       }
     },
     {

@@ -30,7 +30,7 @@
               <router-link class="link" :to="{ name: 'React'}">React</router-link>
             </li>
             <li>
-              <router-link class="link" :to="{ name: 'Cs'}">CS.e.t.c</router-link>
+              <router-link class="link" :to="{ name: 'Mui'}">Mui</router-link>
             </li>
           </ul>
         </div>

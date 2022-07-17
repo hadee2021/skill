@@ -470,5 +470,17 @@
       "todos의 subject값을 가져와서 원래값을 볼 수 있게 하였다<br><br>",
       "2. 외부영역을 클릭하면 바로 저장하는 이벤트를 발생시켜서 수정영역을 계속 열어두는 버그를 해결하였다<br><br>"
     ]
+  },
+  {
+    "id": 34,
+    "headId": "vue-todo-git",
+    "headHref": "#vue-todo-git",
+    "headName": "gitHub",
+    "folder": "",
+    "picture": "",
+    "contentArr": [
+      "<a href='https://github.com/hadee2021/hadee-Todo' target='_blank'> vue Todo 깃허브</a> <br><br>",
+      "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+    ]
   }
 ]

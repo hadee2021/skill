@@ -1780,5 +1780,206 @@
       "컴포넌트를 의미단위로 정리하여 리펙토링<br><br>",
       "저렇게 의미로 보면 깔끔하고 피드백이 쉽다<br><br><br><br><br><br><br><br>"
     ]
+  },
+  {
+    "id": 129,
+    "headId": "r-redux",
+    "headHref": "#r-redux",
+    "headName": "Redux",
+    "folder": "REACTPIC",
+    "picture": "react129리덕스.png",
+    "contentArr": [
+      "redux는 전역으로 상태 관리를 해준다<br><br>",
+      "JS 라이브러리이기 때문에 redux 설치후<br><br>",
+      "redux react도 설치 해야한다<br><br>",
+      "npm install redux react-redux <br><br><br>",
+      "1. 기본적인 파일 세팅 과정<br><br>",
+      "빨간색 숫자는 초기만 세팅하면된다<br><br>",
+      "파란색 숫자는 초기세팅 이후 작업을 추가로 할 파일이다<br><br>",
+      "<a href='https://github.com/hadee2021/redux-react' target='_blank'> redux깃허브</a> <br><br>"
+    ]
+  },
+  {
+    "id": 130,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react130리덕스.png",
+    "contentArr": [
+      "index.js 파일은 저렇게 초기세팅을 해준다<br><br>"
+    ]
+  },
+  {
+    "id": 131,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react131리덕스.png",
+    "contentArr": [
+      "store는 reducer와 연결해준다<br><br>",
+      "createStore는 구버전만 나와있어서<br><br>",
+      "저렇게 가져와서 별칭으로 사용 하였다<br><br>"
+    ]
+  },
+  {
+    "id": 132,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react132리덕스.png",
+    "contentArr": [
+      "reducer파일은 전역 state를 관리하고<br><br>",
+      "action에 따른 state 수정 행동이 정리되있다<br><br>",
+      "행동은 우리가 정해주는 것이다<br><br>"
+    ]
+  },
+  {
+    "id": 133,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react133리덕스.png",
+    "contentArr": [
+      "1. useSelector(state =&gt state.count)로 상태 가져오기<br><br>",
+      "2. const dispatch = useDispatch( )<br><br>",
+      "요청하여 상태 바꾸기<br><br>",
+      "dispatch({type: 'INCREMENT', payload:{num: 5} })<br><br>"
+    ]
+  },
+  {
+    "id": 134,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react134리덕스.png",
+    "contentArr": [
+      "어디서든지 사용이 가능하다<br><br>"
+    ]
+  },
+  {
+    "id": 135,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react135리덕스.png",
+    "contentArr": [
+      "요청마다 action이 다르게 찍힌다<br><br>"
+    ]
+  },
+  {
+    "id": 136,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react136리덕스.png",
+    "contentArr": [
+      "미들웨어는 중간에서 중개를 하는 역할을 한다<br><br>",
+      "리덕스는 동기적인데 무거운 일이나 비동기 같은경우<br><br>",
+      "나중에 따로 처리하고 싶은 경우 등<br><br>",
+      "미들웨어를 이용하여 따로 처리 가능하다<br><br>",
+      "빨간색 숫자는 초기만 세팅을 한다<br><br>",
+      "3번은 여러가지 reducer를 한번에 모아주는 역할을 한다<br><br><br><br>",
+      "파란색 a, b 는 순서대로 작성을 하게 되는데<br><br>",
+      "(순서는 상관없지만 지키는게 이해에 도움이 된다 )<br><br>",
+      "action이 미들웨어이다<br><br>",
+      "수정 요청을 보낼때 미들웨어를 먼저 거치고 <br><br>",
+      "여기에서 dispatch(Action)을 담는다<br><br>",
+      "reducer는 앞전과 동일하다<br><br>",
+      "앞전과의 차이라면<br><br>",
+      "전역상태를 수정하고 싶을 때<br><br>",
+      "redux는 컴포넌트에서 dispatch(Action)을 바로 날림<br><br><br>",
+      "redux-thunk는 컴포넌트에서 dispatch(CartAction.getCart( )) <br><br>",
+      "이렇게 미들웨어를 먼저 불러주고<br><br>",
+      "미들웨어에서 dispatch(Action)를 날린다<br><br>",
+      "<a href='https://github.com/hadee2021/redux-middleware' target='_blank'> middleware깃허브</a> <br><br>"
+    ]
+  },
+  {
+    "id": 137,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react137리덕스.png",
+    "contentArr": [
+      "index.js 파일은 저렇게 초기세팅을 해준다<br><br>"
+    ]
+  },
+  {
+    "id": 138,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react138리덕스.png",
+    "contentArr": [
+      "store는 rootReducer와 연결해준다<br><br>",
+      "rootReducer가 reducer를 모아준다는 index.jsx 파일 이다<br><br>",
+      "여기서는 thunk와 middleware도 세팅해준다<br><br>"
+    ]
+  },
+  {
+    "id": 139,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react139리덕스.png",
+    "contentArr": [
+      "reducer는 이렇게 모아주고<br><br>",
+      "객체안에 넣어서 키 마다 대응 시켜주었다<br><br>",
+      "reducer를 사용하고 싶을 때는 해당 키를 이용하면 된다<br><br>"
+    ]
+  },
+  {
+    "id": 140,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react140리덕스.png",
+    "contentArr": [
+      "미들웨어 부터 보자<br><br>",
+      "미들웨어는 함수를 반환한다<br><br>",
+      "여기서는 비동기 함수를 정의할 수 있다<br><br>",
+      "여기서 리턴하는 함수는 컴포넌트에서 dispatch로 호출하게 된다<br><br>",
+      "그리고 dispatch(action)을 여기서 날려준다<br><br>"
+    ]
+  },
+  {
+    "id": 141,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react141리덕스.png",
+    "contentArr": [
+      "미들웨어에서 넘어온 dispatch(action)을<br><br>",
+      "reducer에서 처리한다<br><br>",
+      "기존 redux랑 동일하다<br><br>"
+    ]
+  },
+  {
+    "id": 142,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "REACTPIC",
+    "picture": "react142리덕스.png",
+    "contentArr": [
+      "컴포넌트에서 사용하는 예시이다<br><br>",
+      "파란색은 수정을 요청하는 부분이다<br><br>",
+      "dispatch(해당 미들웨어) 호출한다<br><br>",
+      "빨간색은 상태 가져오기 이다<br><br>",
+      "state.reducer키 를 거쳐서 사용<br><br>",
+      "<br><br><br><br><br><br><br><br><br>"
+    ]
   }
 ]

@@ -110,7 +110,7 @@ export default {
   .nav-menu::-webkit-scrollbar {
     width: 5px;
     /* background-color: aliceblue; */
-    background-color: white;
+    /* background-color: white; */
   }
 
   #router-area::-webkit-scrollbar {

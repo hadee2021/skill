@@ -13,8 +13,8 @@ import React from '@/pages/study/React.vue'
 import ReactNav from '@/pages/study/ReactNav.vue'
 import Mui from '@/pages/study/Mui.vue'
 import MuiNav from '@/pages/study/MuiNav.vue'
-import Youtube from '@/pages/practice/Youtube.vue'
-import YoutubeNav from '@/pages/practice/YoutubeNav.vue'
+import HmmShopping from '@/pages/practice/HmmShopping.vue'
+import HmmShoppingNav from '@/pages/practice/HmmShoppingNav.vue'
 import Todo from '@/pages/practice/Todo.vue'
 import TodoNav from '@/pages/practice/TodoNav.vue'
 import Hadee from '@/pages/blog/Hadee.vue'
@@ -80,11 +80,11 @@ const router = createRouter({
       }
     },
     {
-      path: '/practice/youtube',
-      name: 'Youtube',
+      path: '/practice/hmmShopping',
+      name: 'HmmShopping',
       components: {
-        default: Youtube,
-        nav: YoutubeNav
+        default: HmmShopping,
+        nav: HmmShoppingNav
       }
     },
     {

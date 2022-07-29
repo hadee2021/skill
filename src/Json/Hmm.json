@@ -1,0 +1,725 @@
+[
+  {
+    "id": 1,
+    "headId": "hmm-intro",
+    "headHref": "#hmm-intro",
+    "headName": "HMM 소개 & 좌표",
+    "folder": "HMMPIC",
+    "picture": "hmm001소개.png",
+    "contentArr": [
+      "React로 간단한 쇼핑몰 사이트를 만들어봤습니다<br><br>",
+      "H&M을 필두로 만들었고 <br><br>",
+      "사진은 <a href='https://www.musinsa.com/app/' target='_blank'>무신사</a>를 이용했습니다<br><br>",
+      "H&M을 동일하게 따라하는 것보다는<br><br>",
+      "본판에서 저만의 스타일을 구현해보고 싶었습니다<br><br>",
+      "그래서 로고와 제목은 이름이 비슷한 HMM으로 하였습니다<br><br>",
+      "<a href='https://github.com/hadee2021/hmm-shopping2' target='_blank'> HMM 깃허브</a> <br><br>",
+      "<a href='https://hadee-hmm-new-shopping.netlify.app/' target='_blank'> HMM 구현사이트</a> <br><br>"
+    ]
+  },
+  {
+    "id": 2,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm002소개.png",
+    "contentArr": [
+      "네비게이션의 우측의 검색창에서 상품 검색을 할 수 있습니다<br><br>",
+      "좌측 메뉴들만 유일한 장식입니다<br><br>",
+      "아무것도 없으면 심심할 것 같기도하고<br><br>",
+      "기능을 넣자하니 데이터 양이 늘어나고<br><br>",
+      "고민 끝에 시각적으로 보기에 심심하지 않게 배치했습니다<br><br>"
+    ]
+  },
+  {
+    "id": 3,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm003소개.png",
+    "contentArr": [
+      "로그인 창은 이메일과 비밀번호를 입력하게 하였습니다<br><br>",
+      "회원가입은 되었다고 전제하고<br><br>",
+      "대신 계정입력을 절차로 유효성 검증을 넣었습니다<br><br>"
+    ]
+  },
+  {
+    "id": 4,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm004소개.png",
+    "contentArr": [
+      "비밀번호는 사용자가 오타 확인을 하기쉽게<br><br>",
+      "볼 수 도 있게 구성하였습니다<br><br>",
+      "여러 웹사이트를 봤지만 EBSi에서 사용하는 <br><br>",
+      "아이콘이 어울릴것 같아 사용했습니다<br><br>"
+    ]
+  },
+  {
+    "id": 5,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm005소개.png",
+    "contentArr": [
+      "로그인을 하면 메인페이지로 돌아갑니다<br><br>",
+      "이렇게 로딩이 될때 로딩UI도 구현해봤습니다<br><br>",
+      "스켈레톤을 사용한 이유는 사용자로 하여금<br><br>",
+      "상품 전체 페이지로 이동한다는것을 짐작하게하여<br><br>",
+      "UX를 확보하기 위함 입니다<br><br>"
+    ]
+  },
+  {
+    "id": 6,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm006소개.png",
+    "contentArr": [
+      "로그인을 하면 메인페이지 우측상단에<br><br>",
+      "로그아웃버튼과 장바구니가 표시됩니다<br><br>"
+    ]
+  },
+  {
+    "id": 7,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm007소개.png",
+    "contentArr": [
+      "상품을 선택하기위해 사진을 클릭하면<br><br>",
+      "상세페이지가 로딩될때<br><br>",
+      "역시 스켈레톤으로 미리 UI를 예상하게 하였습니다<br><br>",
+      "스켈레톤의 기능은 아직 받아오지 않은 <br><br>",
+      "데이터의 자리를 채워주는 것이 목적입니다<br><br>",
+      "스켈레톤을 사용하지 않으면 <br><br>",
+      "static한 값들이 먼저 나타났다가<br><br>",
+      "데이터가 들어오면 이동을하여<br><br>",
+      "사용자로하여금 피로감을 유발 시킬 수 있기 때문입니다<br><br>"
+    ]
+  },
+  {
+    "id": 8,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm008소개.png",
+    "contentArr": [
+      "상세페이지가 로딩된 모습입니다<br><br>",
+      "사진과 제목 가격<br><br>",
+      "이렇게 3가지가 동적으로 받아오는 데이터 입니다<br><br>"
+    ]
+  },
+  {
+    "id": 9,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm009소개.png",
+    "contentArr": [
+      "상품추가시 사이즈를 선택하지 않으면<br><br>",
+      "alert 창으로 경고를 합니다<br><br>",
+      "사실 이렇게 사용자의 행동을 제한하는것은<br><br>",
+      "바람직 하지 않습니다<br><br>",
+      "alert를 이용한 이유는 이후의 수량검증에서<br><br>",
+      "Mui를 통한 유효성 검증이 어려운지라<br><br>",
+      "alert로 통일하여 검증을 하게 되었습니다<br><br><br>",
+      "Mui의 error 속성 추가 제거를 동적으로 지원하지 않다보니<br><br>",
+      "이부분은 Mui customize를 공부하여<br><br>",
+      "동적으로 구현해내던가<br><br>",
+      "아니면 react-hook-form으로 대체해보려 합니다<br><br>"
+    ]
+  },
+  {
+    "id": 10,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm010소개.png",
+    "contentArr": [
+      "상품 사이즈는 데이터와 연동하여 구성하였습니다<br><br><br><br><br><br>"
+    ]
+  },
+  {
+    "id": 11,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm011소개.png",
+    "contentArr": [
+      "수량은 숫자만 입력이 가능하고<br><br>",
+      "음수를 입력하거나 0을 입력하면<br><br>",
+      "유효성 검사에서 걸리게 하였습니다<br><br>"
+    ]
+  },
+  {
+    "id": 12,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm012소개.png",
+    "contentArr": [
+      "우리가 상품을 선택하면 장바구니에 표시가 됩니다<br><br>",
+      "상품의 종류를 카운팅 하였습니다<br><br>"
+    ]
+  },
+  {
+    "id": 13,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm013소개.png",
+    "contentArr": [
+      "장바구니는 선택한 상품들과 총 가격 결제버튼이 있습니다<br><br>",
+      "상품카드에는 상품명 사이즈 수량 삭제버튼이있습니다<br><br>"
+    ]
+  },
+  {
+    "id": 14,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm014소개.png",
+    "contentArr": [
+      "상품목록을 보다 카드형식으로 한 이유는<br><br>",
+      "서로 독립적으로 구분하여 사용자가 한눈에 보게 하기 위해서 입니다<br><br>",
+      "삭제는 X-mark를 활용하여 직관적으로 표현했습니다<br><br>"
+    ]
+  },
+  {
+    "id": 15,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm015소개.png",
+    "contentArr": [
+      "결제를 누르면 alert창과 함께 결제 정보가 표시됩니다<br><br><br><br><br><br>"
+    ]
+  },
+  {
+    "id": 16,
+    "headId": "hmm-code-logic",
+    "headHref": "#hmm-code-logic",
+    "headName": "code logic",
+    "folder": "HMMPIC",
+    "picture": "hmm016파일구성.png",
+    "contentArr": [
+      "파일 구성은 페이지와 컴포넌트 <br><br>",
+      "redirect 페이지 <br><br>",
+      "전역상태관리 atom파일 <br><br>",
+      "db.json 파일<br><br>"
+    ]
+  },
+  {
+    "id": 17,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm017app.png",
+    "contentArr": [
+      "app.jsx 파일은 router를 구현했습니다<br><br>",
+      "router역시 별도로 분리해도 되지만<br><br>",
+      "본문에는 Navbar 정도만있어서<br><br>",
+      "같이 구성하였습니다<br><br>"
+    ]
+  },
+  {
+    "id": 18,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm018db.png",
+    "contentArr": [
+      "db는 고유의 id를 넣고<br><br>",
+      "사진경로 가격 사이즈 등을 넣었습니다<br><br>",
+      "고유의 id는 상품을 구분하기위해 사용하였습니다<br><br>"
+    ]
+  },
+  {
+    "id": 19,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm019atom.png",
+    "contentArr": [
+      "Atom파일은 recoil입니다<br><br>",
+      "recoil은 redux처럼 전역으로 상태관리를 하는 기능입니다<br><br>",
+      "리액트에서 개발했는데 redux대비 매우 심플합니다<br><br>",
+      "다만 출시된지 얼마안되서 아직 실험기능들이 다수입니다<br><br>",
+      "persist는 로컬스토리지에 저장을 해주는 용도인데<br><br>",
+      "이것역시 실험기능이고 하나의 key만 일단 사용가능합니다<br><br>"
+    ]
+  },
+  {
+    "id": 20,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm020메인.png",
+    "contentArr": [
+      "자 그럼 메인화면을 한번 보러 가겠습니다<br><br>"
+    ]
+  },
+  {
+    "id": 21,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm021메인.png",
+    "contentArr": [
+      "메인화면 페이지는 productAll로 구성하였습니다<br><br>",
+      "로직1. 컴포넌트가 Mount 될때 상품의 정보를 받아와야합니다<br><br>",
+      "useEffect로 getProduct를 호출하고 <br><br>",
+      "query에는 검색창에서 검색을 할경우 검색어가 들어갑니다<br><br>",
+      "검색어가 없는경우에는 q 라는 키값이 없겠죠<br><br>",
+      "데이터를 받아오면 setProductList를 이용하여<br><br>",
+      "productList에 상품을 담아줄것입니다<br><br><br>",
+      "로직2. 데이터를 요청해서 받아오는데에는 순간이지만<br><br>",
+      "반드시 시간이 걸립니다<br><br>",
+      "로딩시간을 이용하여 isLoading의 값을 바꿔주게하여<br><br>",
+      "로딩중에는 스켈레톤을 띄워주고<br><br>",
+      "로딩이 끝나면 데이터를 완전히 보여줄것입니다<br><br>"
+    ]
+  },
+  {
+    "id": 22,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm022메인.png",
+    "contentArr": [
+      "스켈레톤을 구현하는 컴포넌트와<br><br>",
+      "상품을 보여주는 컴포넌트입니다<br><br>",
+      "상품은 개별의 내용이 반복되어서<br><br>",
+      "컴포넌트로 만들어서 빼냇습니다<br><br>"
+    ]
+  },
+  {
+    "id": 23,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm023메인.png",
+    "contentArr": [
+      "상품카드에서 가격은 정규표현식으로<br><br>",
+      "3자리씩 구분하였습니다<br><br>",
+      "로직3. 상품카드 개별은 각각의 배열 요소 하나!!!!<br><br>",
+      "즉 자신에 대한 정보가 있습니다<br><br>",
+      "이게 왜 중요하냐면 클릭을 하면<br><br>",
+      "누가 눌렸는지 명확하게 찾을 수 있기 때문입니다<br><br>",
+      "컴포넌트로 분리한 이유도 여기에 있습니다<br><br>",
+      "그래서 navigate(item.id)로 상품 고유의 라우팅을 하게하였습니다<br><br>",
+      "navigate(item.id)를 하면 URL이 변하고<br><br>",
+      "URL에서 변수를 가져와서 원하는 데이터를 연동하는것 입니다<br><br>"
+    ]
+  },
+  {
+    "id": 24,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm024메인.png",
+    "contentArr": [
+      "스켈레톤은 로딩이 될때 상품의 개수를 웹은 모릅니다<br><br>",
+      "하지만 개발자인 저는 알고 있습니다<br><br>",
+      "또한 스켈레톤은 덮어주는 용도이지<br><br>",
+      "기능을 구현하고 소통하는 용도는 아닙니다<br><br>",
+      "따라서 상품의 개수에 맞게 배열을 주어서<br><br>",
+      "map으로 돌려 주었습니다<br><br>"
+    ]
+  },
+  {
+    "id": 25,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm025메인.png",
+    "contentArr": [
+      "Navbar에는 로그인 정보랑 장바구니를 넣기 위해서<br><br>",
+      "atom에서 관리하는 로그인정보라 장바구니를 가져왔습니다<br><br>",
+      "menuList는 처음에 언급한 장식입니다<br><br>"
+    ]
+  },
+  {
+    "id": 26,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm026메인.png",
+    "contentArr": [
+      "로직1. 로그인 이벤트를 하러갈때 <br><br>",
+      "로그인이 되어 있지 않으면 로그인 페이지로 이동<br><br>",
+      "로그인이 되어 있으면 로그아웃을 하게 하였습니다<br><br>",
+      "로직2. 검색창에서 입력한 값을받아서<br><br>",
+      "url상에 q의 값으로 넘겨주게 하였습니다<br><br>",
+      "query가 변한것을 메인페이지에서 useEffect가 인지하고<br><br>",
+      "getProduct를 호출할때 q에는 값이 들어있으니까<br><br>",
+      "해당하는 상품명만 가져오게 됩니다<br><br>",
+      "상품을 가져오는 기능은 json-server의 독창적인 기술입니다<br><br>",
+      "myjson은 json-server없이도 기능을 구현해주는 역할<br><br>"
+    ]
+  },
+  {
+    "id": 27,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm027메인.png",
+    "contentArr": [
+      "로직3. URL에서 경로를 받아와서 <br><br>",
+      "경로에 따라 서로다른 Navbar 스타일을 구현 했습니다<br><br>",
+      "메인페이지는 Navbar가 고정되있고 그에 따라서<br><br>",
+      "스크롤을 하면 같이 따라 내려오게 하였습니다<br><br>",
+      "그런데 상품 상세페이지, 장바구니 페이지는 <br><br>",
+      "Navbar가 따라 내려올 필요는 없어서 구현에 차별화를 하였습니다<br><br>",
+      "로그인 여부로 로그인 로그아웃을 보여주는 구현은<br><br>",
+      "둘중에 하나만 해당하므로 삼항연산자를 이용했습니다<br><br>",
+      "장바구니는 로그아웃 상태이면 보여줄 이유가없어서<br><br>",
+      "단항조건으로 처리하였습니다<br><br>"
+    ]
+  },
+  {
+    "id": 28,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm028메인.png",
+    "contentArr": [
+      "검색창은 동적스타일인 Mui를 활용했습니다 <br><br><br><br><br><br>"
+    ]
+  },
+  {
+    "id": 29,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm029메인.png",
+    "contentArr": [
+      "이제 상품 사진을 클릭하겠습니다<br><br>"
+    ]
+  },
+  {
+    "id": 30,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm030메인.png",
+    "contentArr": [
+      "상품 사진을 클릭하면<br><br>",
+      "URL에 변수를 넣어주게 됩니다<br><br>"
+    ]
+  },
+  {
+    "id": 31,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm031메인.png",
+    "contentArr": [
+      "해당 라우터는<br><br>",
+      "먼저 PrivateRoute로 이동시킵니다<br><br>"
+    ]
+  },
+  {
+    "id": 32,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm032메인.png",
+    "contentArr": [
+      "PrivateRoute에서 로그인의 여부에 따라<br><br>",
+      "보여주는 컴포넌트를 달리 할 수 있습니다<br><br>",
+      "이것이 redirect 기법입니다<br><br>"
+    ]
+  },
+  {
+    "id": 33,
+    "headId": "hmm-login",
+    "headHref": "#hmm-login",
+    "headName": "로그인 페이지",
+    "folder": "HMMPIC",
+    "picture": "hmm033로그인.png",
+    "contentArr": [
+      "우리는 로그인을 하지 않았으므로<br><br>",
+      "로그인 페이지로 이동 합니다<br><br>"
+    ]
+  },
+  {
+    "id": 34,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm034로그인.png",
+    "contentArr": [
+      "로그인은 간단한 로직입니다<br><br>",
+      "이메일과 비밀번호를 받고<br><br>",
+      "유효성 검증은 MUI에서 required 속성으로 해줍니다<br><br>",
+      "비밀번호 visible은 로직에서 추가로 구현을 해주었습니다<br><br>"
+    ]
+  },
+  {
+    "id": 35,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm035로그인.png",
+    "contentArr": [
+      "이메일 입력은 MUI의 TextField를 활용<br><br>"
+    ]
+  },
+  {
+    "id": 36,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm036로그인.png",
+    "contentArr": [
+      "비밀번호는 Formcontrol로<br><br>",
+      "비밀번호 보이게 안보이게 기능을 구현<br><br>"
+    ]
+  },
+  {
+    "id": 37,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm037로그인.png",
+    "contentArr": [
+      "form을 기반으로 하였기에<br><br>",
+      "버튼의 타입은 submit입니다<br><br>"
+    ]
+  },
+  {
+    "id": 38,
+    "headId": "hmm-detail",
+    "headHref": "#hmm-detail",
+    "headName": "상세 페이지",
+    "folder": "HMMPIC",
+    "picture": "hmm038상세.png",
+    "contentArr": [
+      "로그인이 되면 상품을 클릭했을때<br><br>",
+      "url이 변수가 추가됩니다<br><br>"
+    ]
+  },
+  {
+    "id": 39,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm039상세.png",
+    "contentArr": [
+      "url의 변수를 보고서 해당 데이터를 가져옵니다<br><br>"
+    ]
+  },
+  {
+    "id": 40,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm040상세.png",
+    "contentArr": [
+      "로직1. useEffect로 Mount 될때 getProductDetail 호출<br><br>",
+      "useParams로 URL의 변수값 가져오기<br><br>",
+      "변수에 해당하는 데이터 setProduct이용하여 넣어주기<br><br>"
+    ]
+  },
+  {
+    "id": 41,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm041상세.png",
+    "contentArr": [
+      "로직2. 선택한 사이즈와 수량을 감시하여 가지고 있기<br><br>"
+    ]
+  },
+  {
+    "id": 42,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm042상세.png",
+    "contentArr": [
+      "로직3. 상품추가시 addCart호출을 하는데<br><br>",
+      "먼저 유효성 검사를 해주고<br><br>",
+      "통과시 객체안에 키의 값에 데이터를 넣어줄건데<br><br>",
+      "idTime에는 고유의 시간으로 해당객체를 고유하게 하였다<br><br>",
+      "왜냐, 같은 상품인데 사이즈를 달리해서 구매할 수 있으니까<br><br>",
+      "혹은 구매후 동일사이즈로 추가구매 할 수 있으니까<br><br>",
+      "동일한 상품은 상품의 고유 id만으로는 구분을 할 수 없어서<br><br>",
+      "카트에 담는 그 시점의 시간으로 고유성을 확보하였다<br><br>",
+      "( 물론 Symbol을 사용하는 전략도 생각해봤다... )<br><br>",
+      "이렇게 선택한 상품은 recoil이 관리하게 하였다<br><br>",
+      "다른 페이지에서도 카트정보는 사용하게 될테니까<br><br>",
+      "추가완료후 메인 페이지로 이동<br><br>"
+    ]
+  },
+  {
+    "id": 43,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm043상세.png",
+    "contentArr": [
+      "상세페이지도 사진과 가격등은<br><br>",
+      "데이터를 동적으로 받아오기 때문에<br><br>",
+      "스켈레톤 UI를 사용하였다<br><br>"
+    ]
+  },
+  {
+    "id": 44,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm044상세.png",
+    "contentArr": [
+      "가격은 3자리수 정규표현식 사용<br><br>"
+    ]
+  },
+  {
+    "id": 45,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm045상세.png",
+    "contentArr": [
+      "사이즈는 Mui의 텍스트 필드를 이용했다<br><br>",
+      "다만 아쉬운 점이 유효성 검사때<br><br>",
+      "error 속성을 추가하고 싶은데<br><br>",
+      "해당 기능을 지원해주지 않는다<br><br>"
+    ]
+  },
+  {
+    "id": 46,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm046상세.png",
+    "contentArr": [
+      "수량도 Mui의 텍스트 필드를 이용했다<br><br>",
+      "이것역시 유혀성 검사에서 속성추가가 안되서<br><br>",
+      "직접 js에서 구현하였다<br><br>"
+    ]
+  },
+  {
+    "id": 47,
+    "headId": "hmm-cart",
+    "headHref": "#hmm-cart",
+    "headName": "카트",
+    "folder": "HMMPIC",
+    "picture": "hmm047카트.png",
+    "contentArr": [
+      "상품목록을 카드를 이용하여 구현했다<br><br>"
+    ]
+  },
+  {
+    "id": 48,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm048카트.png",
+    "contentArr": [
+      "로직1. 장바구니는 recoil의 버그중에<br><br>",
+      "종종 페이지가 바뀌면 값이 초기화 되버리는 경우가 있다<br><br>",
+      "장바구니만 넘어오면 일정확률로<br><br>",
+      "로그아웃이 되버리는 버그가 발생하여<br><br>",
+      "버그 방지용으로 Mount되자마자 자동으로 로그인 되게 하였다<br><br>",
+      "물론 메인페이지에서는 로그인을 하지않으면<br><br>",
+      "장바구니를 볼 수 없으니 넘어갈 수도 없다<br><br><br>",
+      "로직2. 장바구니가 수정될때마다 총가격을 바꿔주는 로직<br><br>",
+      "item에서 가격과 수량만 뽑아서 reduce로 계산하였다<br><br>",
+      "이것이 배열과 reduce의 강력한점이다<br><br>"
+    ]
+  },
+  {
+    "id": 49,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm049카트.png",
+    "contentArr": [
+      "로직3. 상품 상세보기를 클릭하면 상세 페이지로 이동<br><br>",
+      "로그아웃이 되면 메인 페이지로 이동<br><br>",
+      "로직4. 삭제구현 <br><br>",
+      "item을 서로 구분하기 위해서<br><br>",
+      "카트에 담을때 생성한 idTime으로 서로 구분하여<br><br>",
+      "filter메서드로 구분하였다<br><br>",
+      "새롭게 반환된 배열인 newCart는 복사하여 기존값에 넣어주었다<br><br><br>",
+      "로직5. 계산을 실행하면 계산값이 출력되고<br><br>",
+      "로그아웃을하고 카트를 초기화 시켜준다<br><br>"
+    ]
+  },
+  {
+    "id": 50,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm050카트.png",
+    "contentArr": [
+      "상품카드는 배열에서 map을 이용하였고<br><br>",
+      "static한 값이기 때문에 로딩의 차이가 없어서<br><br>",
+      "옵셔널 체이닝을 처리하지 않았다<br><br>",
+      "item을 서로 구분하기 위해서<br><br>"
+    ]
+  },
+  {
+    "id": 51,
+    "headId": "",
+    "headHref": "",
+    "headName": "",
+    "folder": "HMMPIC",
+    "picture": "hmm051카트.png",
+    "contentArr": [
+      "총가격은 정규표현식으로 3자리 구분을 해주었다<br><br>",
+      "여기까지 프로젝트의 코드 설명이었습니다<br><br>",
+      "감사합니다<br><br>",
+      "<br><br><br><br><br><br><br><br><br><br><br><br>"
+    ]
+  }
+]

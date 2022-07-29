@@ -41,7 +41,7 @@
           </div>
           <ul v-if="visibleObj.pratices">
             <li>
-              <router-link class="link" :to="{ name: 'Youtube'}">YouTube</router-link>
+              <router-link class="link" :to="{ name: 'HmmShopping'}">HmmShopping</router-link>
             </li>
             <li>
               <router-link class="link" :to="{ name: 'Todo'}">Todo</router-link>

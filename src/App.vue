@@ -82,6 +82,8 @@ export default {
     margin: 5px 0 0 20px;
     overflow: auto;
     border-radius: 16px;
+    max-height: 700px;
+    overflow: auto;
   }
   
   #router-area {

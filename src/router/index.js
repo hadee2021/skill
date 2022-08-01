@@ -15,6 +15,8 @@ import Mui from '@/pages/study/Mui.vue'
 import MuiNav from '@/pages/study/MuiNav.vue'
 import HmmShopping from '@/pages/practice/HmmShopping.vue'
 import HmmShoppingNav from '@/pages/practice/HmmShoppingNav.vue'
+import Netflix from '@/pages/practice/Netflix.vue'
+import NetflixNav from '@/pages/practice/NetflixNav.vue'
 import Todo from '@/pages/practice/Todo.vue'
 import TodoNav from '@/pages/practice/TodoNav.vue'
 import Hadee from '@/pages/blog/Hadee.vue'
@@ -85,6 +87,14 @@ const router = createRouter({
       components: {
         default: HmmShopping,
         nav: HmmShoppingNav
+      }
+    },
+    {
+      path: '/practice/netflix',
+      name: 'Netflix',
+      components: {
+        default: Netflix,
+        nav: NetflixNav
       }
     },
     {

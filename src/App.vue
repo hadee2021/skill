@@ -164,5 +164,8 @@ export default {
       height: 100%;
       background-color: rgba(0, 0, 0, 0.5);
     }
+    .AsidMenuForm {
+      width: 63vw;
+    }
   }
 </style>

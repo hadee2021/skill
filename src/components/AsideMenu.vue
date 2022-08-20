@@ -168,8 +168,7 @@ export default {
     position: fixed;
     top: 90px;
     left: 5px;
-    width: 300px;
-    /* height: calc(100vh - 20px); */
+    max-width: 300px;
     border: 2px solid rgb(66, 194, 255);
     background-color: rgba(66, 194, 255);
     margin: 5px 0 0 20px;

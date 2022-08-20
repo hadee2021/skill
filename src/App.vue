@@ -7,11 +7,6 @@
           v-if="!showAsideMenu"
         >
         </i>
-        <!-- <i 
-          class="fa-solid fa-xmark closebtn"
-          v-if="showAsideMenu"
-        >
-        </i> -->
       </div>
       <div>Hadee`s Blog</div>
       <div></div>
@@ -25,7 +20,7 @@
     <div class="nav-menu">
       <NavigationMenu />
     </div>
-    <teleport to='#modal'>
+    <teleport to="#modal">
       <AsideMenu 
         v-if="showAsideMenu"
         class="modal-wrapper"
@@ -39,7 +34,7 @@
 <script>
 import AsideMenu from '@/components/AsideMenu.vue'
 import NavigationMenu from '@/components/NavigationMenu.vue'
-import {  ref } from 'vue'
+import { ref } from 'vue'
 export default {
   components: {
     AsideMenu,
@@ -69,14 +64,12 @@ export default {
   .flex-container {
     display: flex;
     height: 100%;
-    /* background-color:  rgba(193, 244, 197, 0.5); */
   }
 
   .AsidMenu {
     position: fixed;
     top: 90px;
     width: 300px;
-    /* height: calc(100vh - 20px); */
     border: 2px solid rgb(66, 194, 255);
     background-color: rgba(66, 194, 255, 0.2);
     margin: 5px 0 0 20px;
@@ -111,8 +104,6 @@ export default {
   }
   .nav-menu::-webkit-scrollbar {
     width: 5px;
-    /* background-color: aliceblue; */
-    /* background-color: white; */
   }
 
   #router-area::-webkit-scrollbar {
@@ -123,9 +114,7 @@ export default {
     border-radius: 10px;
   }
   #router-area::-webkit-scrollbar-track {
-    /*background-color: rgb(125, 129, 131); */
     border-radius: 10px;
-    /*box-shadow: inset 0px 0px 5px white; */
   }
 
   @media screen and (max-width: 1300px) {
@@ -148,7 +137,6 @@ export default {
       justify-content: space-between;
       position: fixed;
       width: 100%;
-      /* border: 2px solid rgb(66, 194, 255); */
       background-color: rgb(66, 194, 255);
       color: white;
       font-weight: 1000;

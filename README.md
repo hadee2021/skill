@@ -12,12 +12,9 @@ Link: https://hadee-skill.netlify.app/
 
 ---
 ## 개발 환경
-### Core Framework
 ![Vue](https://img.shields.io/badge/Vue-4FC08D.svg?&style=for-the-badge&logo=Vue.js&logoColor=white)
-
-
-### Design
 ![CSS3](https://img.shields.io/badge/-CSS3-007ACC?style=for-the-badge&logo=css3)
+
 
 ### Backend/Hosting
 ![Netlify Status](https://api.netlify.com/api/v1/badges/f15f03f9-55d8-4adc-97d5-f6e085141610/deploy-status)

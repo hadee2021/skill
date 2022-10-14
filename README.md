@@ -16,7 +16,7 @@ Link: https://hadee-skill.netlify.app/
 ![CSS3](https://img.shields.io/badge/-CSS3-007ACC?style=for-the-badge&logo=css3)
 
 
-### Backend/Hosting
+### Hosting
 ![Netlify Status](https://api.netlify.com/api/v1/badges/f15f03f9-55d8-4adc-97d5-f6e085141610/deploy-status)
 
 ---

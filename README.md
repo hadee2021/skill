@@ -86,6 +86,5 @@ Link: https://hadee-skill.netlify.app/
 
 
 
-## 감사합니다!
 
 

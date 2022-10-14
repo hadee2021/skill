@@ -13,7 +13,6 @@ Link: https://hadee-skill.netlify.app/
 ---
 ## 개발 환경
 ![Vue](https://img.shields.io/badge/Vue-4FC08D.svg?&style=for-the-badge&logo=Vue.js&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-007ACC?style=for-the-badge&logo=css3)
 
 
 ### Hosting

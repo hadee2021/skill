@@ -1,24 +1,9 @@
-# hadee
+# Hadee의 개인 블로그
+## Objective
+Link: https://hadee-skill.netlify.app/
 
-## Project setup
-```
-npm install
-```
+프론트 엔드 영역을 공부하면서 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+**기술스택** : html css javascript typescript vue3  react 
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+vuex

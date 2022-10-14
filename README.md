@@ -8,7 +8,7 @@ Link: https://hadee-skill.netlify.app/
 
 **라이브러리** : vuex redux react-query bootstrap, 등
 
-나만의 원칙을 정리한 블로그 입니다.
+저만의 원칙을 정리한 블로그 입니다.
 
 ---
 ## 개발 환경
@@ -33,4 +33,43 @@ Link: https://hadee-skill.netlify.app/
 좌측 메뉴에서 소개, 기술 스택, 프로젝트 항목을 선택하여 보실 수 있고
 
 우측 네비게이션에는 목차를 선택하여 이동할 수 있게 하였습니다.
+
+
+
+
+### 사진 확대
+
+
+![개인 블로그 사진 확대](https://user-images.githubusercontent.com/85422934/195783171-cb16a157-f22a-4a69-8e24-554b69178409.png)
+
+사진을 클릭하여 모달에서 밝고 큰 이미지로 보실 수 있습니다.
+
+편리성 확보를 위해 클릭으로 사진을 열고 닫을 수 있게 했습니다.
+
+
+
+
+### 모바일 버전
+
+
+![개인 블로그 모바일 버전](https://user-images.githubusercontent.com/85422934/195783934-617a806d-73af-496e-bc0f-f7affd8e6221.png)
+
+
+
+![개인 블로그 모바일 버전 사진확대](https://user-images.githubusercontent.com/85422934/195784059-8005d788-6921-49e1-ada3-2b534fa10ca0.png)
+
+
+반응성 UI를 고려하여 모바일에서도 사용가능 합니다.
+
+
+
+
+![개인 블로그 모바일 버전 메뉴](https://user-images.githubusercontent.com/85422934/195784166-f2c81b64-307b-498e-ad06-a0c8f6c7a6b0.png)
+
+
+메뉴이동은 Modal을 이용하여 구현 했습니다.
+
+
+
+
 
